@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 distinct_set = set()
-with open('mitab_nodup_no-rogid_no-idx.txt', 'r') as f,\
+with open('mitab_nodup_no-rogid.txt', 'r') as f,\
         open('mitab_clean.txt', 'w') as clean,\
         open('mitab_distinct.txt', 'w') as distinct:
     f.readline() # remove header
