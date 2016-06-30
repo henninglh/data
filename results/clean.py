@@ -3,24 +3,15 @@ import pandas as pd
 import sys
 
 unclean = sys.argv[1].strip()
-ranking = sys.argv[2].strip()
-clustering = sys.argv[3].strip()
-score = sys.argv[4].strip()
-clean_filename = sys.argv[5].strip()
-unique_id = 'name'
-
-print 'File to clean: {}'.format(unclean)
-print 'Ranking algorithm: {}'.format(ranking)
-print 'Clustering algorithm: {}'.format(clustering)
-print 'Scoring attribute: {}'.format(score)
-
+clean_filename = unclean[:-4] + '_clean.tsv'
+print clean_filename
 
 table = pd.read_csv(unclean)
-#table.pop('SUID')
-#table.pop('shared name')
-#table.pop('selected')
-#table.pop(score)
-# columns argument also decides the order
+cols = set(table)
+cols.remove('SUID')
+cols.remove('shared name')
+cols.remove('selected')
+cols.remove('score')
 table.to_csv(clean_filename, index=False, sep='\t', \
-        columns=[unique_id, clustering, ranking])
+        columns=list(cols))
 
