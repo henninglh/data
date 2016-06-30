@@ -3,10 +3,11 @@ import sys
 
 dragon_filename = sys.argv[1]
 disgen_filename = sys.argv[2]
+combined_filename = sys.argv[3]
 
 with open(dragon_filename, 'r') as dragon,\
         open(disgen_filename, 'r') as disgen,\
-        open('disgen_dragon.tsv', 'w') as combined:
+        open(combined_filename, 'w') as combined:
 
     dragon.readline() # remove header
     disgen.readline() # remove header
