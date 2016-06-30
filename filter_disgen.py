@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import sys
 
 disgen_filename = sys.argv[1].strip()
