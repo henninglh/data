@@ -1,7 +1,9 @@
 #!/usr/bin/env python
+import sys
+
 with open('mitab_clean.txt', 'r') as mitab_file,\
         open('approved_genes.txt', 'r') as gene_file,\
-        open('gene_links_final.txt', 'w') as links_file:
+        open('links/' + sys.argv[1].strip(), 'w') as links_file:
 
     genes = dict((line.strip().split('\t') for line in gene_file.readlines()))
     

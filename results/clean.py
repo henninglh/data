@@ -3,6 +3,7 @@ import pandas as pd
 import sys
 
 unclean = sys.argv[1].strip()
+algorithm = sys.argv[2].strip()
 clean_filename = unclean[:-4] + '_clean.tsv'
 print clean_filename
 
@@ -12,6 +13,6 @@ cols.remove('SUID')
 cols.remove('shared name')
 cols.remove('selected')
 cols.remove('score')
-table.to_csv(clean_filename, index=False, sep='\t', \
-        columns=list(cols))
+table.to_csv('clean/' + algorithm + '/' + clean_filename, index=False,\
+        sep='\t', columns=list(cols))
 
