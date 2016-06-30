@@ -6,7 +6,7 @@ unclean = sys.argv[1].strip()
 ranking = sys.argv[2].strip()
 clustering = sys.argv[3].strip()
 score = sys.argv[4].strip()
-clean_filename = '{}_clean.txt'.format(unclean)
+clean_filename = sys.argv[5].strip()
 unique_id = 'name'
 
 print 'File to clean: {}'.format(unclean)
