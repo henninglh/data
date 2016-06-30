@@ -7,7 +7,7 @@ clean_filename = unclean[:-4] + '_clean.tsv'
 print clean_filename
 
 table = pd.read_csv(unclean)
-cols = set(table)
+cols = set(table) # Create set from table headers
 cols.remove('SUID')
 cols.remove('shared name')
 cols.remove('selected')
