@@ -3,7 +3,6 @@ import sys
 
 if len(sys.argv) < 4:
     sys.exit('./combine.py <gene-file> <score-file> <output-file>')
-    exit()
 
 genes_filename = sys.argv[1]
 scores_filename = sys.argv[2]
