@@ -1,9 +1,7 @@
 #!/usr/bin/env python
 import sys
 
-disgen_filename = sys.argv[1].strip()
-
-with open(disgen_filename, 'r') as disgen,\
+with open('curated_gene_disease_associations.tsv', 'r') as disgen,\
         open('disgen_clean.tsv', 'w') as pscores:
 
     disgen.readline() # remoe the header
