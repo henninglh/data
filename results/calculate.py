@@ -2,17 +2,19 @@
 import sys
 
 clean_filename = sys.argv[1].strip()
+genes_filename = sys.argv[2].strip()
+results_filename = genes_filename[:-4] + '_results.tsv'
 
-with open(clean_filename, 'r') as clean,\
-        open('fasit.txt', 'r') as fasit,\
-        open('results.txt', 'w') as results:
+with open(clean_filename, 'r') as clean, \
+        open(genes_filename, 'r') as genes, \
+        open(results_filename, 'w') as results:
 
-    fasit.readline() # remove header
-    clean.readline() # remove header
+    genes.readline()  # remove header
+    clean.readline()  # remove header
 
-    # Add genes
+    # Add known driver genes
     driver_genes = set()
-    for line in fasit.readlines():
+    for line in genes.readlines():
         driver_genes.add(line.strip())
 
     clusters = dict()
@@ -28,6 +30,4 @@ with open(clean_filename, 'r') as clean,\
             clusters[info[1]]['total'] += info[2]
             clusters[info[1]]['member_count'] += 1
 
-
         gene_to_cluster[info[0]] = info[1]
-
