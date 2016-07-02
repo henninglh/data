@@ -22,5 +22,6 @@ with open(filename + '_results.tsv', 'r') as results_file, \
 
     matcher = SequenceMatcher(None, results, scores)
     diff = matcher.ratio()
-    print diff
-    finals.write('Final result from <{}> is "{}"\n'.format(filename, diff))
+    result_string = 'Final result from <{}> is "{}"\n'.format(filename, diff)
+    print result_string
+    finals.write(result_string)
