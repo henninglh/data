@@ -14,7 +14,6 @@ cols.remove('SUID')
 cols.remove('shared name')
 cols.remove('selected')
 cols.remove('score')  # make this more dynamic?
-cols.remove(ranking)
 cols.remove('Unnamed: 0')
 table.fillna(value=0)
 table.to_csv('clean/' + clustering + '/' + clean_filename, na_rep=-1,
