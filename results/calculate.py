@@ -25,8 +25,8 @@ with open('clean/' + algorithm + '/' + clean_filename, 'r') as clean, \
         info = entry.split('\t')
 
         if not info[0] in clusters:
-            clusters[info[0]] = {'biomarkers': 0, 'member_count': 1, 'score':
-                0.0}
+            clusters[info[0]] = {'biomarkers': 0, 'member_count': 1,
+                                 'score': 0.0}
         else:
             clusters[info[0]]['member_count'] += 1
 
@@ -43,4 +43,4 @@ with open('clean/' + algorithm + '/' + clean_filename, 'r') as clean, \
         'score'], reverse=True))
 
     for cluster, info in clusters_sorted.iteritems():
-        results.write('{}\t{}\n'.format(str(cluster), info['score']))
+        results.write('{}\t{}\n'.format(str(cluster)[:-2], info['score']))
