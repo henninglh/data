@@ -39,7 +39,6 @@ def calculate_results(entries_list):
 
     for key, val in clusters.iteritems():
         val['score'] = float(val['biomarkers']) / float(val['member_count'])
-        print val['score']
 
     clusters_sorted = OrderedDict(sorted(clusters.items(),
                                          key=lambda x: x[1]['score'],
