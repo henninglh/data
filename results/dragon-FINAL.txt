@@ -1,0 +1,1 @@
+Final result from <dragon> is "0.0909090909091"
