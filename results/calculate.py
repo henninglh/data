@@ -15,6 +15,7 @@ def calculate_results(entries_list):
     :param entries_list: the cluster entries we go through
     :return: Nil - writes all results to file!
     '''
+
     # Add known driver genes
     driver_genes = set()
     for line in genes.readlines():
@@ -37,7 +38,8 @@ def calculate_results(entries_list):
         del clusters['-1']
 
     for key, val in clusters.iteritems():
-        val['score'] = float(val['biomarkers'] / val['member_count'])
+        val['score'] = float(val['biomarkers']) / float(val['member_count'])
+        print val['score']
 
     clusters_sorted = OrderedDict(sorted(clusters.items(),
                                          key=lambda x: x[1]['score'],
@@ -52,8 +54,9 @@ def calculate_scores(entries_list):
     Calculates cluster scores and writes them in a descending (by score)
     order to file
     :param entries_list: the cluster entries we go through
-    :return:
+    :return: Nil - writes all results to file
     '''
+
     cluster_scores = dict()
     for entry in entries_list:
         info = entry.split('\t')
