@@ -1,0 +1,130 @@
+umls:C0005684	8000	0.128805692038409	PSCA	prostate stem cell antigen	Malignant neoplasm of urinary bladder	GWASCAT	16	6
+umls:C0005695	8000	0.125276947701365	PSCA	prostate stem cell antigen	Bladder Neoplasm	CTD_human	5	1
+umls:C0013295	8000	0.243452799466923	PSCA	prostate stem cell antigen	Duodenal Ulcer	CTD_human,GWASCAT	4	1
+umls:C0023743	8000	0.12	PSCA	prostate stem cell antigen	Linitis Plastica	CTD_human	1	0
+umls:C0027626	9506	0.12	PAGE4	P antigen family, member 4 (prostate associated)	Neoplasm Invasiveness	CTD_human	1	0
+umls:C0027627	101669767	0.120814325616241	SCHLAP1	SWI/SNF complex antagonist associated with prostate cancer 1 (non-protein coding)	Neoplasm Metastasis	CTD_human	3	0
+umls:C0031117	8712	0.12	PAGE1	P antigen family, member 1 (prostate associated)	Peripheral Neuropathy	CTD_human	1	0
+umls:C0033578	100188789	0.12	HPC6	Prostate cancer, susceptibility to	Prostatic Neoplasms	CTD_human	0	0
+umls:C0033578	101669767	0.12027144187208	SCHLAP1	SWI/SNF complex antagonist associated with prostate cancer 1 (non-protein coding)	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	2346	0.129258818215723	FOLH1	folate hydrolase (prostate-specific membrane antigen) 1	Prostatic Neoplasms	CTD_human	9	0
+umls:C0033578	347747	0.12	HPCQTL19	Prostate cancer aggressiveness quantitative trait locus on chromosome 19	Prostatic Neoplasms	CTD_human	0	0
+umls:C0033578	408259	0.12	HPC3	Prostate cancer, hereditary, 3	Prostatic Neoplasms	CTD_human	0	0
+umls:C0033578	408260	0.12	HPC4	Prostate cancer, hereditary, 4	Prostatic Neoplasms	CTD_human	0	0
+umls:C0033578	619402	0.12	HPC5	prostate cancer, hereditary, 5	Prostatic Neoplasms	CTD_human	0	0
+umls:C0033578	7834	0.12	PCAP	predisposing for prostate cancer	Prostatic Neoplasms	CTD_human	0	0
+umls:C0033578	8000	0.128444492599482	PSCA	prostate stem cell antigen	Prostatic Neoplasms	CTD_human	5	0
+umls:C0033578	9566	0.12	HPCX	hereditary prostate cancer, X-linked	Prostatic Neoplasms	CTD_human	0	0
+umls:C0038356	53635	0.12	PTOV1	prostate tumor overexpressed 1	Stomach Neoplasms	CTD_human	1	0
+umls:C0038356	8000	0.134830952007558	PSCA	prostate stem cell antigen	Stomach Neoplasms	CTD_human	7	0
+umls:C0242656	53635	0.12	PTOV1	prostate tumor overexpressed 1	Disease Progression	CTD_human	1	0
+umls:C0376358	100048912	0.12027144187208	CDKN2B-AS1	CDKN2B antisense RNA 1	Malignant neoplasm of prostate	GWASCAT	2	1
+umls:C0376358	100505495	0.12	PCAT19	prostate cancer associated transcript 19 (non-protein coding)	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	100846978	0.12	LINC00506	long intergenic non-protein coding RNA 506	Malignant neoplasm of prostate	GWASCAT	2	2
+umls:C0376358	101805488	0.12	CCAT2	colon cancer associated transcript 2 (non-protein coding)	Malignant neoplasm of prostate	GWASCAT	5	1
+umls:C0376358	101867536	0.121357209360402	PRNCR1	prostate cancer associated non-coding RNA 1	Malignant neoplasm of prostate	GWASCAT	10	5
+umls:C0376358	101928075	0.12	LOC101928075	uncharacterized LOC101928075	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	101928165	0.12	CASC17	cancer susceptibility candidate 17 (non-protein coding)	Malignant neoplasm of prostate	GWASCAT	5	2
+umls:C0376358	101929081	0.12	CTD-2194D22.4	uncharacterized LOC101929081	Malignant neoplasm of prostate	GWASCAT	2	1
+umls:C0376358	102724596	0.12	LOC102724596	uncharacterized LOC102724596	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	10481	0.12895758177865	HOXB13	homeobox B13	Malignant neoplasm of prostate	UNIPROT	33	1
+umls:C0376358	10611	0.127643979679967	PDLIM5	PDZ and LIM domain 5	Malignant neoplasm of prostate	GWASCAT	5	2
+umls:C0376358	10979	0.12027144187208	FERMT2	fermitin family member 2	Malignant neoplasm of prostate	GWASCAT	2	1
+umls:C0376358	11074	0.12	TRIM31	tripartite motif containing 31	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	11200	0.138349764822937	CHEK2	checkpoint kinase 2	Malignant neoplasm of prostate	UNIPROT	25	6
+umls:C0376358	116113	0.123181357594843	FOXP4	forkhead box P4	Malignant neoplasm of prostate	GWASCAT	3	2
+umls:C0376358	1488	0.151585741338067	CTBP2	C-terminal binding protein 2	Malignant neoplasm of prostate	GWASCAT	16	1
+umls:C0376358	1499	0.202171534976642	CTNNB1	catenin (cadherin-associated protein), beta 1, 88kDa	Malignant neoplasm of prostate	CLINVAR	8	1
+umls:C0376358	170626	0.12	XAGE3	X antigen family, member 3	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	173	0.12	AFM	afamin	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	201625	0.12	DNAH12	dynein, axonemal, heavy chain 12	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	2048	0.131867497501413	EPHB2	EPH receptor B2	Malignant neoplasm of prostate	UNIPROT	36	2
+umls:C0376358	220972	0.12	MARCH8	membrane-associated ring finger (C3HC4) 8, E3 ubiquitin protein ligase	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	222546	0.123995683211084	RFX6	regulatory factor X, 6	Malignant neoplasm of prostate	GWASCAT	6	1
+umls:C0376358	2255	0.12	FGF10	fibroblast growth factor 10	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	22834	0.120542883744161	ZNF652	zinc finger protein 652	Malignant neoplasm of prostate	GWASCAT	3	1
+umls:C0376358	22853	0.146308793636703	LMTK2	lemur tyrosine kinase 2	Malignant neoplasm of prostate	GWASCAT	13	1
+umls:C0376358	22995	0.12	CEP152	centrosomal protein 152kDa	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	23035	0.12	PHLPP2	PH domain and leucine rich repeat protein phosphatase 2	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	23112	0.127101095935806	TNRC6B	trinucleotide repeat containing 6B	Malignant neoplasm of prostate	GWASCAT	3	1
+umls:C0376358	23301	0.151042857593907	EHBP1	EH domain binding protein 1	Malignant neoplasm of prostate	GWASCAT	13	1
+umls:C0376358	23394	0.12	ADNP	activity-dependent neuroprotector homeobox	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	253461	0.12	ZBTB38	zinc finger and BTB domain containing 38	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	254428	0.12	SLC41A1	solute carrier family 41 (magnesium transporter), member 1	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	26019	0.12	UPF2	UPF2 regulator of nonsense transcripts homolog (yeast)	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	26575	0.12027144187208	RGS17	regulator of G-protein signaling 17	Malignant neoplasm of prostate	GWASCAT	2	1
+umls:C0376358	29841	0.12	GRHL1	grainyhead-like 1 (Drosophila)	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	354	0.261542831443653	KLK3	kallikrein-related peptidase 3	Malignant neoplasm of prostate	GWASCAT	781	17
+umls:C0376358	357	0.12	SHROOM2	shroom family member 2	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	3655	0.127372537807886	ITGA6	integrin, alpha 6	Malignant neoplasm of prostate	GWASCAT	4	1
+umls:C0376358	367	0.28	AR	androgen receptor	Malignant neoplasm of prostate	CLINVAR	1372	12
+umls:C0376358	3782	0.12	KCNN3	potassium channel, calcium activated intermediate/small conductance subfamily N alpha, member 3	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	390443	0.12	RNASE9	ribonuclease, RNase A family, 9 (non-active)	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	4194	0.123724241339004	MDM4	MDM4, p53 regulator	Malignant neoplasm of prostate	GWASCAT	6	3
+umls:C0376358	4316	0.124538566955244	MMP7	matrix metallopeptidase 7 (matrilysin, uterine)	Malignant neoplasm of prostate	GWASCAT	10	2
+umls:C0376358	4477	0.25555984060457	MSMB	microseminoprotein, beta-	Malignant neoplasm of prostate	GWASCAT	56	3
+umls:C0376358	4481	0.167839916054483	MSR1	macrophage scavenger receptor 1	Malignant neoplasm of prostate	CLINVAR	32	7
+umls:C0376358	4601	0.241628651232482	MXI1	MAX interactor 1, dimerization protein	Malignant neoplasm of prostate	CLINVAR,UNIPROT	6	2
+umls:C0376358	4646	0.121357209360402	MYO6	myosin VI	Malignant neoplasm of prostate	GWASCAT	6	1
+umls:C0376358	4739	0.12	NEDD9	neural precursor cell expressed, developmentally down-regulated 9	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	4855	0.12	NOTCH4	notch 4	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	51426	0.12	POLK	polymerase (DNA directed) kappa	Malignant neoplasm of prostate	CLINVAR	0	11
+umls:C0376358	5195	0.12	PEX14	peroxisomal biogenesis factor 14	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	54535	0.12	CCHCR1	coiled-coil alpha-helical rod protein 1	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	54847	0.12	SIDT1	SID1 transmembrane family, member 1	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	55204	0.12	GOLPH3L	golgi phosphoprotein 3-like	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	55275	0.12	VPS53	vacuolar protein sorting 53 homolog (S. cerevisiae)	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	55971	0.12	BAIAP2L1	BAI1-associated protein 2-like 1	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	5728	0.263876054462308	PTEN	phosphatase and tensin homolog	Malignant neoplasm of prostate	UNIPROT	185	0
+umls:C0376358	5890	0.12	RAD51B	RAD51 paralog B	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	60678	0.124734063957204	EEFSEC	eukaryotic elongation factor, selenocysteine-tRNA-specific	Malignant neoplasm of prostate	GWASCAT	2	1
+umls:C0376358	63892	0.127372537807886	THADA	thyroid adenoma associated	Malignant neoplasm of prostate	GWASCAT	4	1
+umls:C0376358	64641	0.12	EBF2	early B-cell factor 2	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	64759	0.12	TNS3	tensin 3	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	6581	0.154571601930951	SLC22A3	solute carrier family 22 (organic cation transporter), member 3	Malignant neoplasm of prostate	GWASCAT	26	1
+umls:C0376358	675	0.1827692190189	BRCA2	breast cancer 2, early onset	Malignant neoplasm of prostate	CLINVAR	87	1
+umls:C0376358	6899	0.12	TBX1	T-box 1	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	6928	0.168773793802563	HNF1B	HNF1 homeobox B	Malignant neoplasm of prostate	GWASCAT	32	5
+umls:C0376358	7015	0.126438660059807	TERT	telomerase reverse transcriptase	Malignant neoplasm of prostate	GWASCAT	16	3
+umls:C0376358	7157	0.229924159890752	TP53	tumor protein p53	Malignant neoplasm of prostate	CLINVAR	255	5
+umls:C0376358	727677	0.12	CASC8	cancer susceptibility candidate 8 (non-protein coding)	Malignant neoplasm of prostate	GWASCAT	4	1
+umls:C0376358	728114	0.12	LOC728114	uncharacterized LOC728114	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	79083	0.12	MLPH	melanophilin	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	79954	0.12	NOL10	nucleolar protein 10	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	81603	0.12	TRIM8	tripartite motif containing 8	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	84071	0.122367031978602	ARMC2	armadillo repeat containing 2	Malignant neoplasm of prostate	GWASCAT	2	1
+umls:C0376358	84619	0.12027144187208	ZGPAT	zinc finger, CCCH-type with G patch domain	Malignant neoplasm of prostate	GWASCAT	2	1
+umls:C0376358	9177	0.12	HTR3B	5-hydroxytryptamine (serotonin) receptor 3B, ionotropic	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	9855	0.12	FARP2	FERM, RhoGEF and pleckstrin domain protein 2	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C1334615	354	0.12	KLK3	kallikrein-related peptidase 3	Malignant Phyllodes Tumor of Prostate	CTD_human	1	0
+umls:C1836005	100188789	0.12	HPC6	Prostate cancer, susceptibility to	Prostate Cancer, Hereditary, 6	CTD_human	0	0
+umls:C1836436	619402	0.12	HPC5	prostate cancer, hereditary, 5	Prostate Cancer, Hereditary, 5	CTD_human	0	0
+umls:C1837593	408260	0.12	HPC4	Prostate cancer, hereditary, 4	Prostate Cancer, Hereditary, 4	CTD_human	0	0
+umls:C1837595	408259	0.12	HPC3	Prostate cancer, hereditary, 3	PROSTATE CANCER, HEREDITARY, 3	CTD_human	0	0
+umls:C1846279	9566	0.12	HPCX	hereditary prostate cancer, X-linked	PROSTATE CANCER, HEREDITARY, X-LINKED 1	CTD_human	0	0
+umls:C1853195	100188809	0.12	HPC7	Prostate cancer, hereditary, 7	Prostate Cancer, Hereditary, 7	CTD_human	0	0
+umls:C1863600	2048	0.24	EPHB2	EPH receptor B2	PROSTATE CANCER/BRAIN CANCER SUSCEPTIBILITY (finding)	CLINVAR,CTD_human	0	4
+umls:C1864472	7834	0.12	PCAP	predisposing for prostate cancer	PROSTATE CANCER, HEREDITARY, 8	CTD_human	0	0
+umls:C1970192	100188834	0.12	HPC10	Prostate cancer, hereditary, 10	Prostate Cancer, Hereditary, 10	CTD_human	0	0
+umls:C1970250	100188826	0.12	HPC9	Prostate cancer, hereditary, 9	Prostate Cancer, Hereditary, 9	CTD_human	0	0
+umls:C2677771	100188868	0.12	HPC15	Prostate cancer, hereditary, 15	Prostate Cancer, Hereditary, 15	CTD_human	0	0
+umls:C2677772	100188867	0.12	HPC14	Prostate cancer, hereditary, 14	Prostate Cancer, Hereditary, 14	CTD_human	0	0
+umls:C2677773	6928	0.12	HNF1B	HNF1 homeobox B	Prostate Cancer, Hereditary, 11	CTD_human	0	0
+umls:C2677821	4477	0.24	MSMB	microseminoprotein, beta-	Prostate Cancer, Hereditary, 13	CLINVAR,CTD_human	0	1
+umls:C2678047	100188769	0.12	HPCX2	Prostate cancer, hereditary, X-linked 2	Prostate Cancer, Hereditary, X-Linked 2	CTD_human	0	0
+umls:C2678479	23301	0.24	EHBP1	EH domain binding protein 1	Prostate Cancer, Hereditary, 12	CLINVAR,CTD_human	0	1
+umls:C2931456	10481	0.241628651232482	HOXB13	homeobox B13	Prostate cancer, familial	CTD_human,ORPHANET	6	1
+umls:C2931456	11200	0.240814325616241	CHEK2	checkpoint kinase 2	Prostate cancer, familial	CTD_human,ORPHANET	3	0
+umls:C2931456	2048	0.12027144187208	EPHB2	EPH receptor B2	Prostate cancer, familial	ORPHANET	1	0
+umls:C2931456	4477	0.12027144187208	MSMB	microseminoprotein, beta-	Prostate cancer, familial	ORPHANET	1	0
+umls:C2931456	4481	0.122171534976642	MSR1	macrophage scavenger receptor 1	Prostate cancer, familial	ORPHANET	8	0
+umls:C2931456	4683	0.12	NBN	nibrin	Prostate cancer, familial	ORPHANET	0	0
+umls:C2931456	6041	0.364343069953285	RNASEL	ribonuclease L (2\',5\'-oligoisoadenylate synthetase-dependent)	Prostate cancer, familial	CLINVAR,CTD_human,ORPHANET	16	6
+umls:C2931456	60528	0.122442976848723	ELAC2	elaC ribonuclease Z 2	Prostate cancer, familial	ORPHANET	9	0
+umls:C2931456	6716	0.12027144187208	SRD5A2	steroid-5-alpha-reductase, alpha polypeptide 2 (3-oxo-5 alpha-steroid delta 4-dehydrogenase alpha 2)	Prostate cancer, familial	ORPHANET	1	0
+umls:C2931456	672	0.121357209360402	BRCA1	breast cancer 1, early onset	Prostate cancer, familial	ORPHANET	5	0
+umls:C2931456	675	0.121900093104562	BRCA2	breast cancer 2, early onset	Prostate cancer, familial	ORPHANET	7	0
+umls:C2931456	6928	0.12	HNF1B	HNF1 homeobox B	Prostate cancer, familial	ORPHANET	0	0
+umls:C2931456	999	0.12027144187208	CDH1	cadherin 1, type 1, E-cadherin (epithelial)	Prostate cancer, familial	CTD_human	2	0
+umls:C3495559	55	0.12	ACPP	acid phosphatase, prostate	Juvenile arthritis	CTD_human	1	0
+umls:C3539120	60528	0.24	ELAC2	elaC ribonuclease Z 2	PROSTATE CANCER, HEREDITARY, 2	CLINVAR,UNIPROT	4	6

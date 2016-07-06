@@ -21,4 +21,5 @@ with open(genes_filename, 'r') as genes,\
 
         if gene_name in approved_genes:
             combined.write(line)
+            approved_genes.remove(gene_name)
 

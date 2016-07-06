@@ -1,0 +1,31 @@
+diseaseId	geneId	score	geneName	description	diseaseName	sourceId	NofPmids	NofSnps
+umls:C0033578	100188789	0.12	HPC6	Prostate cancer, susceptibility to	Prostatic Neoplasms	CTD_human	0	0
+umls:C0033578	101669767	0.12027144187208	SCHLAP1	SWI/SNF complex antagonist associated with prostate cancer 1 (non-protein coding)	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	347747	0.12	HPCQTL19	Prostate cancer aggressiveness quantitative trait locus on chromosome 19	Prostatic Neoplasms	CTD_human	0	0
+umls:C0033578	408259	0.12	HPC3	Prostate cancer, hereditary, 3	Prostatic Neoplasms	CTD_human	0	0
+umls:C0033578	408260	0.12	HPC4	Prostate cancer, hereditary, 4	Prostatic Neoplasms	CTD_human	0	0
+umls:C0033578	619402	0.12	HPC5	prostate cancer, hereditary, 5	Prostatic Neoplasms	CTD_human	0	0
+umls:C0033578	7834	0.12	PCAP	predisposing for prostate cancer	Prostatic Neoplasms	CTD_human	0	0
+umls:C0033578	9566	0.12	HPCX	hereditary prostate cancer, X-linked	Prostatic Neoplasms	CTD_human	0	0
+umls:C0376358	100505495	0.12	PCAT19	prostate cancer associated transcript 19 (non-protein coding)	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	101867536	0.121357209360402	PRNCR1	prostate cancer associated non-coding RNA 1	Malignant neoplasm of prostate	GWASCAT	10	5
+umls:C1853195	100188809	0.12	HPC7	Prostate cancer, hereditary, 7	Prostate Cancer, Hereditary, 7	CTD_human	0	0
+umls:C1863600	2048	0.24	EPHB2	EPH receptor B2	PROSTATE CANCER/BRAIN CANCER SUSCEPTIBILITY (finding)	CLINVAR,CTD_human	0	4
+umls:C1970192	100188834	0.12	HPC10	Prostate cancer, hereditary, 10	Prostate Cancer, Hereditary, 10	CTD_human	0	0
+umls:C1970250	100188826	0.12	HPC9	Prostate cancer, hereditary, 9	Prostate Cancer, Hereditary, 9	CTD_human	0	0
+umls:C2677771	100188868	0.12	HPC15	Prostate cancer, hereditary, 15	Prostate Cancer, Hereditary, 15	CTD_human	0	0
+umls:C2677772	100188867	0.12	HPC14	Prostate cancer, hereditary, 14	Prostate Cancer, Hereditary, 14	CTD_human	0	0
+umls:C2677773	6928	0.12	HNF1B	HNF1 homeobox B	Prostate Cancer, Hereditary, 11	CTD_human	0	0
+umls:C2677821	4477	0.24	MSMB	microseminoprotein, beta-	Prostate Cancer, Hereditary, 13	CLINVAR,CTD_human	0	1
+umls:C2678047	100188769	0.12	HPCX2	Prostate cancer, hereditary, X-linked 2	Prostate Cancer, Hereditary, X-Linked 2	CTD_human	0	0
+umls:C2678479	23301	0.24	EHBP1	EH domain binding protein 1	Prostate Cancer, Hereditary, 12	CLINVAR,CTD_human	0	1
+umls:C2931456	10481	0.241628651232482	HOXB13	homeobox B13	Prostate cancer, familial	CTD_human,ORPHANET	6	1
+umls:C2931456	11200	0.240814325616241	CHEK2	checkpoint kinase 2	Prostate cancer, familial	CTD_human,ORPHANET	3	0
+umls:C2931456	4481	0.122171534976642	MSR1	macrophage scavenger receptor 1	Prostate cancer, familial	ORPHANET	8	0
+umls:C2931456	4683	0.12	NBN	nibrin	Prostate cancer, familial	ORPHANET	0	0
+umls:C2931456	6041	0.364343069953285	RNASEL	ribonuclease L (2\',5\'-oligoisoadenylate synthetase-dependent)	Prostate cancer, familial	CLINVAR,CTD_human,ORPHANET	16	6
+umls:C2931456	6716	0.12027144187208	SRD5A2	steroid-5-alpha-reductase, alpha polypeptide 2 (3-oxo-5 alpha-steroid delta 4-dehydrogenase alpha 2)	Prostate cancer, familial	ORPHANET	1	0
+umls:C2931456	672	0.121357209360402	BRCA1	breast cancer 1, early onset	Prostate cancer, familial	ORPHANET	5	0
+umls:C2931456	675	0.121900093104562	BRCA2	breast cancer 2, early onset	Prostate cancer, familial	ORPHANET	7	0
+umls:C2931456	999	0.12027144187208	CDH1	cadherin 1, type 1, E-cadherin (epithelial)	Prostate cancer, familial	CTD_human	2	0
+umls:C3539120	60528	0.24	ELAC2	elaC ribonuclease Z 2	PROSTATE CANCER, HEREDITARY, 2	CLINVAR,UNIPROT	4	6
