@@ -73,8 +73,8 @@ def calculate_scores(entries_list):
 
     # Sort after cluster score descending, then cluster number ascending
     cluster_scores_sorted = OrderedDict(sorted(cluster_scores.items(),
-                                               key=lambda x: (x[1], -float(x[0])),
-                                               reverse=True))
+                                           key=lambda x: (x[1], -float(x[0])),
+                                           reverse=True))
 
     for cluster, score in cluster_scores_sorted.iteritems():
         scores.write('{}\t{}\n'.format(str(cluster)[:-2], score))
