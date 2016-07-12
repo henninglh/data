@@ -14,13 +14,9 @@ with open(filename + '_results.tsv', 'r') as results_file, \
     for line in results_file.readlines():
         info = line.split('\t')
         line = info[0].strip()
-        score = float(info[1].strip())
-
-        if score > 0.0:
-            results.append(line)
+        results.append(line)
 
     scores = [line.split('\t')[0].strip() for line in scores_file.readlines()]
-    scores = scores[:len(results)]
 
     matcher = SequenceMatcher(None, results, scores)
     diff = matcher.ratio()

@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 import sys
+import operator
 from collections import OrderedDict
 
-print 'Usage: <clean> <genes> <clustering>'
+print 'Usage: clean/algorithm/<clean-file> tests/<genes-file> <clustering>'
 
 clean_filename = sys.argv[1].strip()
 genes_filename = sys.argv[2].strip()
@@ -27,23 +28,26 @@ def calculate_results(entries_list):
 
     for entry in entries_list:
         info = entry.split('\t')
+        cluster = info[0].strip()
 
-        if not info[0].strip() in clusters:
-            clusters[info[0]] = {'biomarkers': 0, 'member_count': 1,
+        if not cluster in clusters:
+            clusters[cluster] = {'biomarkers': 0, 'member_count': 1,
                                  'score': 0.0}
         else:
-            clusters[info[0]]['member_count'] += 1
+            clusters[cluster]['member_count'] += 1
 
         if info[1].strip() in driver_genes:
-            clusters[info[0]]['biomarkers'] += 1
+            clusters[cluster]['biomarkers'] += 1
     if '-1' in clusters:
         del clusters['-1']
 
     for key, val in clusters.iteritems():
         val['score'] = float(val['biomarkers']) / float(val['member_count'])
 
+    # Sort after cluster score descending, then cluster number ascending
     clusters_sorted = OrderedDict(sorted(clusters.items(),
-                                         key=lambda x: x[1]['score'],
+                                         key=lambda x: (x[1]['score'],
+                                             -float(x[0])),
                                          reverse=True))
 
     for cluster, info in clusters_sorted.iteritems():
@@ -67,8 +71,9 @@ def calculate_scores(entries_list):
         if not cluster in cluster_scores:
             cluster_scores[cluster] = float(score)
 
+    # Sort after cluster score descending, then cluster number ascending
     cluster_scores_sorted = OrderedDict(sorted(cluster_scores.items(),
-                                               key=lambda x: x[1],
+                                               key=lambda x: (x[1], -float(x[0])),
                                                reverse=True))
 
     for cluster, score in cluster_scores_sorted.iteritems():
