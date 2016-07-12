@@ -2,6 +2,8 @@
 import sys
 from collections import OrderedDict
 
+print 'Usage: <clean> <genes> <clustering>'
+
 clean_filename = sys.argv[1].strip()
 genes_filename = sys.argv[2].strip()
 algorithm = sys.argv[3].strip()

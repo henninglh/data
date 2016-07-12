@@ -2,9 +2,12 @@
 import pandas as pd
 import sys
 
+print 'Usage: <file-to-clean> <clustering> <ranking> <scores...>'
+
 unclean = sys.argv[1].strip()
 clustering = sys.argv[2].strip() # clustering algorithm
 ranking = sys.argv[3].strip() # ranking algorithm
+scorings = sys.argv[4:]
 clean_filename = unclean[:-4] + '_clean.tsv'
 print clean_filename
 
@@ -13,7 +16,9 @@ cols = set(table)  # Create set from table headers
 cols.remove('SUID')
 cols.remove('shared name')
 cols.remove('selected')
-cols.remove('score')  # make this more dynamic?
+for score in scorings:
+    cols.remove(score.strip())
+#cols.remove('score')  # make this more dynamic?
 #cols.remove('Unnamed: 0')
 table.fillna(value=0)
 table.to_csv('clean/' + clustering + '/' + clean_filename, na_rep=-1,

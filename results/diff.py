@@ -2,6 +2,8 @@
 import sys
 from difflib import SequenceMatcher
 
+print 'Usage: <prefix-to-file> | example: ./diff.py dragon'
+
 filename = sys.argv[1].strip()
 
 with open(filename + '_results.tsv', 'r') as results_file, \
