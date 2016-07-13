@@ -32,26 +32,27 @@ def calculate_results(entries_list):
 
         if not cluster in clusters:
             clusters[cluster] = {'biomarkers': 0, 'member_count': 1,
-                                 'score': 0.0}
+                                 'mean': 0.0}
         else:
             clusters[cluster]['member_count'] += 1
 
         if info[1].strip() in driver_genes:
             clusters[cluster]['biomarkers'] += 1
+
     if '-1' in clusters:
         del clusters['-1']
 
     for key, val in clusters.iteritems():
-        val['score'] = float(val['biomarkers']) / float(val['member_count'])
+        val['mean'] = float(val['biomarkers']) / float(val['member_count'])
 
     # Sort after cluster score descending, then cluster number ascending
     clusters_sorted = OrderedDict(sorted(clusters.items(),
-                                         key=lambda x: (x[1]['score'],
+                                         key=lambda x: (x[1]['mean'],
                                              -float(x[0])),
                                          reverse=True))
 
     for cluster, info in clusters_sorted.iteritems():
-        results.write('{}\t{}\n'.format(str(cluster)[:-2], info['score']))
+        results.write('{}\t{}\n'.format(str(cluster)[:-2], info['mean']))
 
 
 def calculate_scores(entries_list):
@@ -73,6 +74,7 @@ def calculate_scores(entries_list):
 
     if '-1' in cluster_scores:
         del cluster_scores['-1']
+
     # Sort after cluster score descending, then cluster number ascending
     cluster_scores_sorted = OrderedDict(sorted(cluster_scores.items(),
                                            key=lambda x: (x[1], -float(x[0])),
