@@ -15,8 +15,8 @@ with open(clean_file, 'r') as results_file,\
     biomarkers = set([line.strip() for line in biomarker_file.readlines()])
     results_file.readline()
     clusters = OrderedDict()
-    non_clustered = list()
 
+    candidate_file.write('rank\tcluster\tcandidates\n')
 
     for line in scores_file.readlines():
         info = line.split('\t')
@@ -27,6 +27,10 @@ with open(clean_file, 'r') as results_file,\
             continue
 
         clusters[cluster] = dict()
+
+        if score == 0.0:
+            break
+
         clusters[cluster]['score'] = score
 
     for line in results_file.readlines():
@@ -34,7 +38,7 @@ with open(clean_file, 'r') as results_file,\
         cluster = int(float(info[0]))
         gene = info[1].strip()
         
-        if cluster == -1:
+        if cluster == -1 or cluster not in clusters:
             continue
 
         if not 'genes' in clusters[cluster]:
@@ -42,12 +46,16 @@ with open(clean_file, 'r') as results_file,\
 
         clusters[cluster]['genes'].add(gene)
 
+    rank = 1
     for cluster in clusters:
-        line = ''
+        candidates = []
         for gene in clusters[cluster]['genes']:
             if gene not in biomarkers:
-                line += ', ' + gene
-        candidate_file.write('{}{}\n'.format(cluster, line))
+                candidates.append(gene)
+        candidate_format = ','.join(candidates)
+        candidate_file.write('{}\t{}\t{}\n'.format(rank, cluster,
+            candidate_format))
+        rank += 1
     
 
 

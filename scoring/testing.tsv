@@ -1,0 +1,623 @@
+diseaseId	geneId	score	geneName	description	diseaseName	sourceId	NofPmids	NofSnps
+umls:C0005684	8000	0.128805692038409	PSCA	prostate stem cell antigen	Malignant neoplasm of urinary bladder	GWASCAT	16	6
+umls:C0005695	8000	0.125276947701365	PSCA	prostate stem cell antigen	Bladder Neoplasm	CTD_human	5	1
+umls:C0013295	8000	0.243452799466923	PSCA	prostate stem cell antigen	Duodenal Ulcer	CTD_human,GWASCAT	4	1
+umls:C0023743	8000	0.12	PSCA	prostate stem cell antigen	Linitis Plastica	CTD_human	1	0
+umls:C0027626	9506	0.12	PAGE4	P antigen family, member 4 (prostate associated)	Neoplasm Invasiveness	CTD_human	1	0
+umls:C0027627	101669767	0.120814325616241	SCHLAP1	SWI/SNF complex antagonist associated with prostate cancer 1 (non-protein coding)	Neoplasm Metastasis	CTD_human	3	0
+umls:C0031117	8712	0.12	PAGE1	P antigen family, member 1 (prostate associated)	Peripheral Neuropathy	CTD_human	1	0
+umls:C0033575	5020	0.12	OXT	oxytocin/neurophysin I prepropeptide	Prostatic Diseases	CTD_human	1	0
+umls:C0033578	10	0.130540082706004	NAT2	N-acetyltransferase 2 (arylamine N-acetyltransferase)	Prostatic Neoplasms	CTD_human	5	2
+umls:C0033578	10013	0.12	HDAC6	histone deacetylase 6	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	100188789	0.12	HPC6	Prostate cancer, susceptibility to	Prostatic Neoplasms	CTD_human	0	0
+umls:C0033578	10040	0.12	TOM1L1	target of myb1 (chicken)-like 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	1012	0.122724350242467	CDH13	cadherin 13	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	10158	0.12	PDZK1IP1	PDZK1 interacting protein 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	101669767	0.12027144187208	SCHLAP1	SWI/SNF complex antagonist associated with prostate cancer 1 (non-protein coding)	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	10207	0.12	INADL	InaD-like (Drosophila)	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	10257	0.125448700484934	ABCC4	ATP-binding cassette, sub-family C (CFTR/MRP), member 4	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	1026	0.144347399398635	CDKN1A	cyclin-dependent kinase inhibitor 1A (p21, Cip1)	Prostatic Neoplasms	CTD_human	12	0
+umls:C0033578	10263	0.12027144187208	CDK2AP2	cyclin-dependent kinase 2 associated protein 2	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	1027	0.153692094006142	CDKN1B	cyclin-dependent kinase inhibitor 1B (p27, Kip1)	Prostatic Neoplasms	CTD_human	18	0
+umls:C0033578	10333	0.125448700484934	TLR6	toll-like receptor 6	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	10397	0.122995792114547	NDRG1	N-myc downstream regulated 1	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	10417	0.12	SPON2	spondin 2, extracellular matrix protein	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	10439	0.12	OLFM1	olfactomedin 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	10451	0.125448700484934	VAV3	vav 3 guanine nucleotide exchange factor	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	10481	0.125448700484934	HOXB13	homeobox B13	Prostatic Neoplasms	CTD_human	6	0
+umls:C0033578	10499	0.122724350242467	NCOA2	nuclear receptor coactivator 2	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	10516	0.12	FBLN5	fibulin 5	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	10551	0.125448700484934	AGR2	anterior gradient 2	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	10587	0.12	TXNRD2	thioredoxin reductase 2	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	10625	0.12	IVNS1ABP	influenza virus NS1A binding protein	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	10809	0.12	STARD10	StAR-related lipid transfer (START) domain containing 10	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	10857	0.12	PGRMC1	progesterone receptor membrane component 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	10928	0.12	RALBP1	ralA binding protein 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	10945	0.12	KDELR1	KDEL (Lys-Asp-Glu-Leu) endoplasmic reticulum protein retention receptor 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	10948	0.12	STARD3	StAR-related lipid transfer (START) domain containing 3	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	10951	0.12	CBX1	chromobox homolog 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	10955	0.12	SERINC3	serine incorporator 3	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	10961	0.12	ERP29	endoplasmic reticulum protein 29	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	11005	0.12	SPINK5	serine peptidase inhibitor, Kazal type 5	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	11009	0.12027144187208	IL24	interleukin 24	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	11176	0.12	BAZ2A	bromodomain adjacent to zinc finger domain, 2A	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	11178	0.122995792114547	LZTS1	leucine zipper, putative tumor suppressor 1	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	11187	0.12	PKP3	plakophilin 3	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	11200	0.144347399398635	CHEK2	checkpoint kinase 2	Prostatic Neoplasms	CTD_human	9	1
+umls:C0033578	114609	0.12	TIRAP	toll-interleukin 1 receptor (TIR) domain containing adaptor protein	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	116113	0.122367031978602	FOXP4	forkhead box P4	Prostatic Neoplasms	CTD_human	1	1
+umls:C0033578	1191	0.216888985198964	CLU	clusterin	Prostatic Neoplasms	CTD_human	10	0
+umls:C0033578	12	0.122367031978602	SERPINA3	serpin peptidase inhibitor, clade A (alpha-1 antiproteinase, antitrypsin), member 3	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	1200	0.12	TPP1	tripeptidyl peptidase I	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	1266	0.12	CNN3	calponin 3, acidic	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	1312	0.12	COMT	catechol-O-methyltransferase	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	1316	0.15105362015546	KLF6	Kruppel-like factor 6	Prostatic Neoplasms	CTD_human	13	0
+umls:C0033578	1317	0.12	SLC31A1	solute carrier family 31 (copper transporter), member 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	1365	0.12	CLDN3	claudin 3	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	1366	0.122724350242467	CLDN7	claudin 7	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	136991	0.12	ASZ1	ankyrin repeat, SAM and basic leucine zipper domain containing 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	1387	0.12027144187208	CREBBP	CREB binding protein	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	1410	0.12	CRYAB	crystallin, alpha B	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	142	0.120814325616241	PARP1	poly (ADP-ribose) polymerase 1	Prostatic Neoplasms	CTD_human	4	0
+umls:C0033578	143686	0.12	SESN3	sestrin 3	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	1465	0.12	CSRP1	cysteine and glycine-rich protein 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	1469	0.12	CST1	cystatin SN	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	1474	0.12027144187208	CST6	cystatin E/M	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	1488	0.124734063957204	CTBP2	C-terminal binding protein 2	Prostatic Neoplasms	CTD_human	1	1
+umls:C0033578	1499	0.142066243811818	CTNNB1	catenin (cadherin-associated protein), beta 1, 88kDa	Prostatic Neoplasms	CTD_human	9	0
+umls:C0033578	150084	0.12	IGSF5	immunoglobulin superfamily, member 5	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	1508	0.12	CTSB	cathepsin B	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	1509	0.12	CTSD	cathepsin D	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	153090	0.128444492599482	DAB2IP	DAB2 interacting protein	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	154	0.122724350242467	ADRB2	adrenoceptor beta 2, surface	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	1543	0.136617543326883	CYP1A1	cytochrome P450, family 1, subfamily A, polypeptide 1	Prostatic Neoplasms	CTD_human	9	0
+umls:C0033578	1545	0.130897400969869	CYP1B1	cytochrome P450, family 1, subfamily B, polypeptide 1	Prostatic Neoplasms	CTD_human	5	0
+umls:C0033578	1548	0.12	CYP2A6	cytochrome P450, family 2, subfamily A, polypeptide 6	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	1557	0.122724350242467	CYP2C19	cytochrome P450, family 2, subfamily C, polypeptide 19	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	1562	0.12	CYP2C18	cytochrome P450, family 2, subfamily C, polypeptide 18	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	1571	0.12	CYP2E1	cytochrome P450, family 2, subfamily E, polypeptide 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	1576	0.122995792114547	CYP3A4	cytochrome P450, family 3, subfamily A, polypeptide 4	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	1577	0.130540082706004	CYP3A5	cytochrome P450, family 3, subfamily A, polypeptide 5	Prostatic Neoplasms	CTD_human	4	0
+umls:C0033578	1586	0.133535874820551	CYP17A1	cytochrome P450, family 17, subfamily A, polypeptide 1	Prostatic Neoplasms	CTD_human	11	0
+umls:C0033578	1588	0.133264432948471	CYP19A1	cytochrome P450, family 19, subfamily A, polypeptide 1	Prostatic Neoplasms	CTD_human	7	0
+umls:C0033578	1605	0.122724350242467	DAG1	dystroglycan 1 (dystrophin-associated glycoprotein 1)	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	1636	0.125091382221069	ACE	angiotensin I converting enzyme	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	1647	0.122724350242467	GADD45A	growth arrest and DNA-damage-inducible, alpha	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	1672	0.12	DEFB1	defensin, beta 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	1728	0.122995792114547	NQO1	NAD(P)H dehydrogenase, quinone 1	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	1775	0.12	DNASE1L2	deoxyribonuclease I-like 2	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	1786	0.122724350242467	DNMT1	DNA (cytosine-5-)-methyltransferase 1	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	1789	0.122724350242467	DNMT3B	DNA (cytosine-5-)-methyltransferase 3 beta	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	1902	0.125448700484934	LPAR1	lysophosphatidic acid receptor 1	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	1950	0.143694895044299	EGF	epidermal growth factor	Prostatic Neoplasms	CTD_human	16	0
+umls:C0033578	1956	0.143684963522635	EGFR	epidermal growth factor receptor	Prostatic Neoplasms	CTD_human	25	0
+umls:C0033578	1958	0.130344585704044	EGR1	early growth response 1	Prostatic Neoplasms	CTD_human	12	0
+umls:C0033578	196	0.12	AHR	aryl hydrocarbon receptor	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	2012	0.12	EMP1	epithelial membrane protein 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	2014	0.12	EMP3	epithelial membrane protein 3	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	2052	0.12	EPHX1	epoxide hydrolase 1, microsomal (xenobiotic)	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	2064	0.153496597004183	ERBB2	erb-b2 receptor tyrosine kinase 2	Prostatic Neoplasms	CTD_human	25	0
+umls:C0033578	2065	0.133621751212336	ERBB3	erb-b2 receptor tyrosine kinase 3	Prostatic Neoplasms	CTD_human	5	0
+umls:C0033578	2068	0.125091382221069	ERCC2	excision repair cross-complementation group 2	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	207	0.176658539825986	AKT1	v-akt murine thymoma viral oncogene homolog 1	Prostatic Neoplasms	CTD_human	29	0
+umls:C0033578	2078	0.161931158082001	ERG	v-ets avian erythroblastosis virus E26 oncogene homolog	Prostatic Neoplasms	CTD_human	37	0
+umls:C0033578	2099	0.139527459049646	ESR1	estrogen receptor 1	Prostatic Neoplasms	CTD_human	12	0
+umls:C0033578	210	0.12	ALAD	aminolevulinate dehydratase	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	2100	0.148329269912993	ESR2	estrogen receptor 2 (ER beta)	Prostatic Neoplasms	CTD_human	18	0
+umls:C0033578	2115	0.134978960572737	ETV1	ets variant 1	Prostatic Neoplasms	CTD_human	9	0
+umls:C0033578	2118	0.125720142357015	ETV4	ets variant 4	Prostatic Neoplasms	CTD_human	4	0
+umls:C0033578	2146	0.145604919670526	EZH2	enhancer of zeste 2 polycomb repressive complex 2 subunit	Prostatic Neoplasms	CTD_human	16	0
+umls:C0033578	2182	0.12	ACSL4	acyl-CoA synthetase long-chain family member 4	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	2192	0.12	FBLN1	fibulin 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	221895	0.122367031978602	JAZF1	JAZF zinc finger 1	Prostatic Neoplasms	CTD_human	1	1
+umls:C0033578	222546	0.122638473850682	RFX6	regulatory factor X, 6	Prostatic Neoplasms	CTD_human	2	1
+umls:C0033578	2247	0.125991584229095	FGF2	fibroblast growth factor 2 (basic)	Prostatic Neoplasms	CTD_human	5	0
+umls:C0033578	2255	0.122638473850682	FGF10	fibroblast growth factor 10	Prostatic Neoplasms	CTD_human	2	1
+umls:C0033578	2264	0.128173050727402	FGFR4	fibroblast growth factor receptor 4	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	2272	0.128358616207697	FHIT	fragile histidine triad	Prostatic Neoplasms	CTD_human	4	1
+umls:C0033578	22853	0.124734063957204	LMTK2	lemur tyrosine kinase 2	Prostatic Neoplasms	CTD_human	2	1
+umls:C0033578	2296	0.12	FOXC1	forkhead box C1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	23071	0.12	ERP44	endoplasmic reticulum protein 44	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	23197	0.12	FAF2	Fas associated factor family member 2	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	23204	0.12	ARL6IP1	ADP-ribosylation factor-like 6 interacting protein 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	23301	0.122367031978602	EHBP1	EH domain binding protein 1	Prostatic Neoplasms	CTD_human	2	1
+umls:C0033578	23382	0.12	AHCYL2	adenosylhomocysteinase-like 2	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	23411	0.130897400969869	SIRT1	sirtuin 1	Prostatic Neoplasms	CTD_human	5	0
+umls:C0033578	2346	0.129258818215723	FOLH1	folate hydrolase (prostate-specific membrane antigen) 1	Prostatic Neoplasms	CTD_human	9	0
+umls:C0033578	23476	0.12	BRD4	bromodomain containing 4	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	23600	0.153235086653767	AMACR	alpha-methylacyl-CoA racemase	Prostatic Neoplasms	CTD_human	17	0
+umls:C0033578	23635	0.122724350242467	SSBP2	single-stranded DNA binding protein 2	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	23671	0.12027144187208	TMEFF2	transmembrane protein with EGF-like and two follistatin-like domains 2	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	23753	0.12	SDF2L1	stromal cell-derived factor 2-like 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	246778	0.120814325616241	IL27	interleukin 27	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	25792	0.12	CIZ1	CDKN1A interacting zinc finger protein 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	25818	0.128173050727402	KLK5	kallikrein-related peptidase 5	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	2591	0.12	GALNT3	polypeptide N-acetylgalactosaminyltransferase 3	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	25932	0.12	CLIC4	chloride intracellular channel 4	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	26227	0.12	PHGDH	phosphoglycerate dehydrogenase	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	26298	0.123267233986628	EHF	ets homologous factor	Prostatic Neoplasms	CTD_human	4	0
+umls:C0033578	26499	0.12	PLEK2	pleckstrin 2	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	2650	0.125448700484934	GCNT1	glucosaminyl (N-acetyl) transferase 1, core 2	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	2678	0.12027144187208	GGT1	gamma-glutamyltransferase 1	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	2690	0.122724350242467	GHR	growth hormone receptor	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	2697	0.122995792114547	GJA1	gap junction protein, alpha 1, 43kDa	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	27134	0.12	TJP3	tight junction protein 3	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	27173	0.128444492599482	SLC39A1	solute carrier family 39 (zinc transporter), member 1	Prostatic Neoplasms	CTD_human	5	0
+umls:C0033578	27232	0.12027144187208	GNMT	glycine N-methyltransferase	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	27242	0.12	TNFRSF21	tumor necrosis factor receptor superfamily, member 21	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	27294	0.12	DHDH	dihydrodiol dehydrogenase (dimeric)	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	2787	0.12	GNG5	guanine nucleotide binding protein (G protein), gamma 5	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	28	0.12	ABO	ABO blood group (transferase A, alpha 1-3-N-acetylgalactosaminyltransferase; transferase B, alpha 1-3-galactosyltransferase)	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	2803	0.12	GOLGA4	golgin A4	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	283237	0.12	TTC9C	tetratricopeptide repeat domain 9C	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	2878	0.12	GPX3	glutathione peroxidase 3 (plasma)	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	2886	0.12	GRB7	growth factor receptor-bound protein 7	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	28999	0.12	KLF15	Kruppel-like factor 15	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	29	0.12027144187208	ABR	active BCR-related	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	2908	0.12027144187208	NR3C1	nuclear receptor subfamily 3, group C, member 1 (glucocorticoid receptor)	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	29087	0.12	THYN1	thymocyte nuclear protein 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	2923	0.12	PDIA3	protein disulfide isomerase family A, member 3	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	2925	0.123267233986628	GRPR	gastrin-releasing peptide receptor	Prostatic Neoplasms	CTD_human	4	0
+umls:C0033578	2932	0.128444492599482	GSK3B	glycogen synthase kinase 3 beta	Prostatic Neoplasms	CTD_human	5	0
+umls:C0033578	2938	0.122724350242467	GSTA1	glutathione S-transferase alpha 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	2944	0.145814229369211	GSTM1	glutathione S-transferase mu 1	Prostatic Neoplasms	CTD_human	12	0
+umls:C0033578	2947	0.12	GSTM3	glutathione S-transferase mu 3 (brain)	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	2950	0.163974547536791	GSTP1	glutathione S-transferase pi 1	Prostatic Neoplasms	CTD_human	28	0
+umls:C0033578	2952	0.140365528884277	GSTT1	glutathione S-transferase theta 1	Prostatic Neoplasms	CTD_human	12	0
+umls:C0033578	29893	0.12	PSMC3IP	PSMC3 interacting protein	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	30008	0.12027144187208	EFEMP2	EGF containing fibulin-like extracellular matrix protein 2	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	301	0.125448700484934	ANXA1	annexin A1	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	3047	0.12	HBG1	hemoglobin, gamma A	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	3048	0.12	HBG2	hemoglobin, gamma G	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	306	0.12	ANXA3	annexin A3	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	307	0.12	ANXA4	annexin A4	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	3091	0.153496597004183	HIF1A	hypoxia inducible factor 1, alpha subunit (basic helix-loop-helix transcription factor)	Prostatic Neoplasms	CTD_human	23	0
+umls:C0033578	3092	0.120814325616241	HIP1	huntingtin interacting protein 1	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	316	0.12	AOX1	aldehyde oxidase 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	3169	0.122995792114547	FOXA1	forkhead box A1	Prostatic Neoplasms	CTD_human	4	0
+umls:C0033578	3171	0.12	FOXA3	forkhead box A3	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	3187	0.12	HNRNPH1	heterogeneous nuclear ribonucleoprotein H1 (H)	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	3232	0.12	HOXD3	homeobox D3	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	324	0.125448700484934	APC	adenomatous polyposis coli	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	3248	0.12	HPGD	hydroxyprostaglandin dehydrogenase 15-(NAD)	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	3249	0.13225461033027	HPN	hepsin	Prostatic Neoplasms	CTD_human	9	0
+umls:C0033578	328	0.12	APEX1	APEX nuclease (multifunctional DNA repair enzyme) 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	3283	0.122724350242467	HSD3B1	hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	3284	0.122724350242467	HSD3B2	hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 2	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	3292	0.12	HSD17B1	hydroxysteroid (17-beta) dehydrogenase 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	3293	0.12	HSD17B3	hydroxysteroid (17-beta) dehydrogenase 3	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	3303	0.12	HSPA1A	heat shock 70kDa protein 1A	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	3326	0.12	HSP90AB1	heat shock protein 90kDa alpha (cytosolic), class B member 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	3383	0.123267233986628	ICAM1	intercellular adhesion molecule 1	Prostatic Neoplasms	CTD_human	4	0
+umls:C0033578	3399	0.12027144187208	ID3	inhibitor of DNA binding 3, dominant negative helix-loop-helix protein	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	347747	0.12	HPCQTL19	Prostate cancer aggressiveness quantitative trait locus on chromosome 19	Prostatic Neoplasms	CTD_human	0	0
+umls:C0033578	3479	0.221980367420033	IGF1	insulin-like growth factor 1 (somatomedin C)	Prostatic Neoplasms	CTD_human	14	0
+umls:C0033578	3486	0.155602118632369	IGFBP3	insulin-like growth factor binding protein 3	Prostatic Neoplasms	CTD_human	18	0
+umls:C0033578	3489	0.12	IGFBP6	insulin-like growth factor binding protein 6	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	3490	0.125720142357015	IGFBP7	insulin-like growth factor binding protein 7	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	354	0.212877320119613	KLK3	kallikrein-related peptidase 3	Prostatic Neoplasms	CTD_human	75	1
+umls:C0033578	3557	0.122724350242467	IL1RN	interleukin 1 receptor antagonist	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	3558	0.122995792114547	IL2	interleukin 2	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	356	0.12	FASLG	Fas ligand (TNF superfamily, member 6)	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	3569	0.155678063502489	IL6	interleukin 6	Prostatic Neoplasms	CTD_human	26	0
+umls:C0033578	3576	0.142880569428059	CXCL8	chemokine (C-X-C motif) ligand 8	Prostatic Neoplasms	CTD_human	14	0
+umls:C0033578	3586	0.122724350242467	IL10	interleukin 10	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	3603	0.122724350242467	IL16	interleukin 16	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	3606	0.122724350242467	IL18	interleukin 18	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	3630	0.123810117730788	INS	insulin	Prostatic Neoplasms	CTD_human	5	0
+umls:C0033578	3667	0.125448700484934	IRS1	insulin receptor substrate 1	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	367	0.320998992337442	AR	androgen receptor	Prostatic Neoplasms	CTD_human	226	2
+umls:C0033578	3690	0.136346101454803	ITGB3	integrin, beta 3 (platelet glycoprotein IIIa, antigen CD61)	Prostatic Neoplasms	CTD_human	7	0
+umls:C0033578	3708	0.122724350242467	ITPR1	inositol 1,4,5-trisphosphate receptor, type 1	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	3717	0.12	JAK2	Janus kinase 2	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	3728	0.122724350242467	JUP	junction plakoglobin	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	373156	0.12	GSTK1	glutathione S-transferase kappa 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	3732	0.13198316845819	CD82	CD82 molecule	Prostatic Neoplasms	CTD_human	8	0
+umls:C0033578	3817	0.138713133433405	KLK2	kallikrein-related peptidase 2	Prostatic Neoplasms	CTD_human	8	0
+umls:C0033578	384	0.122724350242467	ARG2	arginase 2	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	389058	0.12	SP5	Sp5 transcription factor	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	3913	0.12	LAMB2	laminin, beta 2 (laminin S)	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	3915	0.122724350242467	LAMC1	laminin, gamma 1 (formerly LAMB2)	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	3925	0.120542883744161	STMN1	stathmin 1	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	3945	0.12	LDHB	lactate dehydrogenase B	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	3952	0.128173050727402	LEP	leptin	Prostatic Neoplasms	CTD_human	4	0
+umls:C0033578	3977	0.122367031978602	LIFR	leukemia inhibitory factor receptor alpha	Prostatic Neoplasms	CTD_human	1	1
+umls:C0033578	4023	0.122995792114547	LPL	lipoprotein lipase	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	4036	0.122724350242467	LRP2	low density lipoprotein receptor-related protein 2	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	406991	0.120542883744161	MIR21	microRNA 21	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	4072	0.12	EPCAM	epithelial cell adhesion molecule	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	4074	0.12	M6PR	mannose-6-phosphate receptor (cation dependent)	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	408259	0.12	HPC3	Prostate cancer, hereditary, 3	Prostatic Neoplasms	CTD_human	0	0
+umls:C0033578	408260	0.12	HPC4	Prostate cancer, hereditary, 4	Prostatic Neoplasms	CTD_human	0	0
+umls:C0033578	4158	0.12	MC2R	melanocortin 2 receptor (adrenocorticotropic hormone)	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	4193	0.128001297943832	MDM2	MDM2 proto-oncogene, E3 ubiquitin protein ligase	Prostatic Neoplasms	CTD_human	6	0
+umls:C0033578	4282	0.128444492599482	MIF	macrophage migration inhibitory factor (glycosylation-inhibiting factor)	Prostatic Neoplasms	CTD_human	5	0
+umls:C0033578	4292	0.125448700484934	MLH1	mutL homolog 1	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	43	0.12	ACHE	acetylcholinesterase (Yt blood group)	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	4311	0.139613335441431	MME	membrane metallo-endopeptidase	Prostatic Neoplasms	CTD_human	8	0
+umls:C0033578	4318	0.142880569428059	MMP9	matrix metallopeptidase 9 (gelatinase B, 92kDa gelatinase, 92kDa type IV collagenase)	Prostatic Neoplasms	CTD_human	13	0
+umls:C0033578	4322	0.12	MMP13	matrix metallopeptidase 13 (collagenase 3)	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	4353	0.122724350242467	MPO	myeloperoxidase	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	4437	0.122724350242467	MSH3	mutS homolog 3	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	4477	0.140822536236653	MSMB	microseminoprotein, beta-	Prostatic Neoplasms	CTD_human	12	1
+umls:C0033578	4481	0.13907045169727	MSR1	macrophage scavenger receptor 1	Prostatic Neoplasms	CTD_human	8	0
+umls:C0033578	4502	0.125448700484934	MT2A	metallothionein 2A	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	4507	0.12	MTAP	methylthioadenosine phosphorylase	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	4524	0.135631464927073	MTHFR	methylenetetrahydrofolate reductase (NAD(P)H)	Prostatic Neoplasms	CTD_human	6	0
+umls:C0033578	4585	0.125448700484934	MUC4	mucin 4, cell surface associated	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	4601	0.121628651232482	MXI1	MAX interactor 1, dimerization protein	Prostatic Neoplasms	CTD_human	6	0
+umls:C0033578	4609	0.137974752687285	MYC	v-myc avian myelocytomatosis viral oncogene homolog	Prostatic Neoplasms	CTD_human	13	0
+umls:C0033578	4610	0.12	MYCL	v-myc avian myelocytomatosis viral oncogene lung carcinoma derived homolog	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	463	0.128444492599482	ZFHX3	zinc finger homeobox 3	Prostatic Neoplasms	CTD_human	4	0
+umls:C0033578	4669	0.12	NAGLU	N-acetylglucosaminidase, alpha	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	467	0.122995792114547	ATF3	activating transcription factor 3	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	4683	0.12	NBN	nibrin	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	472	0.128087174335617	ATM	ATM serine/threonine kinase	Prostatic Neoplasms	CTD_human	5	0
+umls:C0033578	4780	0.12	NFE2L2	nuclear factor, erythroid 2-like 2	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	4782	0.12	NFIC	nuclear factor I/C (CCAAT-binding transcription factor)	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	4804	0.120542883744161	NGFR	nerve growth factor receptor	Prostatic Neoplasms	CTD_human	4	0
+umls:C0033578	4824	0.148319338391329	NKX3-1	NK3 homeobox 1	Prostatic Neoplasms	CTD_human	25	1
+umls:C0033578	4846	0.130897400969869	NOS3	nitric oxide synthase 3 (endothelial cell)	Prostatic Neoplasms	CTD_human	5	0
+umls:C0033578	4878	0.12	NPPA	natriuretic peptide A	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	4883	0.12	NPR3	natriuretic peptide receptor 3	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	4925	0.12	NUCB2	nucleobindin 2	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	4968	0.122724350242467	OGG1	8-oxoguanine DNA glycosylase	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	5034	0.12	P4HB	prolyl 4-hydroxylase, beta polypeptide	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	5054	0.122995792114547	SERPINE1	serpin peptidase inhibitor, clade E (nexin, plasminogen activator inhibitor type 1), member 1	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	5074	0.120814325616241	PAWR	PRKC, apoptosis, WT1, regulator	Prostatic Neoplasms	CTD_human	4	0
+umls:C0033578	5100	0.12	PCDH8	protocadherin 8	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	51084	0.12	CRYL1	crystallin, lambda 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	51132	0.12	RLIM	ring finger protein, LIM domain interacting	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	51135	0.12	IRAK4	interleukin-1 receptor-associated kinase 4	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	51181	0.122724350242467	DCXR	dicarbonyl/L-xylulose reductase	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	51227	0.12	PIGP	phosphatidylinositol glycan anchor biosynthesis, class P	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	51341	0.12	ZBTB7A	zinc finger and BTB domain containing 7A	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	5144	0.12	PDE4D	phosphodiesterase 4D, cAMP-specific	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	5160	0.12	PDHA1	pyruvate dehydrogenase (lipoamide) alpha 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	51651	0.12	PTRH2	peptidyl-tRNA hydrolase 2	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	51655	0.12	RASD1	RAS, dexamethasone-induced 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	5172	0.12	SLC26A4	solute carrier family 26 (anion exchanger), member 4	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	5174	0.12	PDZK1	PDZ domain containing 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	5176	0.120814325616241	SERPINF1	serpin peptidase inhibitor, clade F (alpha-2 antiplasmin, pigment epithelium derived factor), member 1	Prostatic Neoplasms	CTD_human	4	0
+umls:C0033578	5179	0.12	PENK	proenkephalin	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	5224	0.12	PGAM2	phosphoglycerate mutase 2 (muscle)	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	5273	0.12	SERPINB10	serpin peptidase inhibitor, clade B (ovalbumin), member 10	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	5290	0.121900093104562	PIK3CA	phosphatidylinositol-4,5-bisphosphate 3-kinase, catalytic subunit alpha	Prostatic Neoplasms	CTD_human	8	0
+umls:C0033578	5293	0.121357209360402	PIK3CD	phosphatidylinositol-4,5-bisphosphate 3-kinase, catalytic subunit delta	Prostatic Neoplasms	CTD_human	6	0
+umls:C0033578	5328	0.136346101454803	PLAU	plasminogen activator, urokinase	Prostatic Neoplasms	CTD_human	8	0
+umls:C0033578	5329	0.128173050727402	PLAUR	plasminogen activator, urokinase receptor	Prostatic Neoplasms	CTD_human	4	0
+umls:C0033578	53916	0.12	RAB4B	RAB4B, member RAS oncogene family	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	5396	0.12	PRRX1	paired related homeobox 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	540	0.12	ATP7B	ATPase, Cu++ transporting, beta polypeptide	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	5420	0.122724350242467	PODXL	podocalyxin-like	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	54361	0.12	WNT4	wingless-type MMTV integration site family, member 4	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	54363	0.12	HAO1	hydroxyacid oxidase (glycolate oxidase) 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	54431	0.12	DNAJC10	DnaJ (Hsp40) homolog, subfamily C, member 10	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	5444	0.125448700484934	PON1	paraoxonase 1	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	54535	0.122367031978602	CCHCR1	coiled-coil alpha-helical rod protein 1	Prostatic Neoplasms	CTD_human	1	1
+umls:C0033578	5465	0.122724350242467	PPARA	peroxisome proliferator-activated receptor alpha	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	54756	0.122724350242467	IL17RD	interleukin 17 receptor D	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	54790	0.12	TET2	tet methylcytosine dioxygenase 2	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	55198	0.12	APPL2	adaptor protein, phosphotyrosine interaction, PH domain and leucine zipper containing 2	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	55210	0.12	ATAD3A	ATPase family, AAA domain containing 3A	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	55256	0.122995792114547	ADI1	acireductone dioxygenase 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	5530	0.12	PPP3CA	protein phosphatase 3, catalytic subunit, alpha isozyme	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	55312	0.12	RFK	riboflavin kinase	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	55577	0.12	NAGK	N-acetylglucosamine kinase	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	5567	0.122724350242467	PRKACB	protein kinase, cAMP-dependent, catalytic, beta	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	55819	0.12	RNF130	ring finger protein 130	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	55827	0.12	DCAF6	DDB1 and CUL4 associated factor 6	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	55829	0.12	VIMP	VCP-interacting membrane protein	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	55840	0.122995792114547	EAF2	ELL associated factor 2	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	5590	0.122724350242467	PRKCZ	protein kinase C, zeta	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	5591	0.12	PRKDC	protein kinase, DNA-activated, catalytic polypeptide	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	5595	0.125448700484934	MAPK3	mitogen-activated protein kinase 3	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	5610	0.12	EIF2AK2	eukaryotic translation initiation factor 2-alpha kinase 2	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	5611	0.12	DNAJC3	DnaJ (Hsp40) homolog, subfamily C, member 3	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	5621	0.12027144187208	PRNP	prion protein	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	563	0.122724350242467	AZGP1	alpha-2-glycoprotein 1, zinc-binding	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	5652	0.12	PRSS8	protease, serine, 8	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	56616	0.12	DIABLO	diablo, IAP-binding mitochondrial protein	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	567	0.122724350242467	B2M	beta-2-microglobulin	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	56849	0.12	TCEAL7	transcription elongation factor A (SII)-like 7	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	56924	0.122995792114547	PAK6	p21 protein (Cdc42/Rac)-activated kinase 6	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	57185	0.12	NIPAL3	NIPA-like domain containing 3	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	572	0.128715934471562	BAD	BCL2-associated agonist of cell death	Prostatic Neoplasms	CTD_human	6	0
+umls:C0033578	5728	0.179287082155004	PTEN	phosphatase and tensin homolog	Prostatic Neoplasms	CTD_human	49	0
+umls:C0033578	5743	0.151596503899621	PTGS2	prostaglandin-endoperoxide synthase 2 (prostaglandin G/H synthase and cyclooxygenase)	Prostatic Neoplasms	CTD_human	18	0
+umls:C0033578	5744	0.129801701959883	PTHLH	parathyroid hormone-like hormone	Prostatic Neoplasms	CTD_human	10	0
+umls:C0033578	5796	0.12	PTPRK	protein tyrosine phosphatase, receptor type, K	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	581	0.125448700484934	BAX	BCL2-associated X protein	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	5859	0.12	QARS	glutaminyl-tRNA synthetase	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	5887	0.12	RAD23B	RAD23 homolog B (S. cerevisiae)	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	59084	0.12	ENPP5	ectonucleotide pyrophosphatase/phosphodiesterase 5 (putative)	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	59344	0.12	ALOXE3	arachidonate lipoxygenase 3	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	595	0.216531666935099	CCND1	cyclin D1	Prostatic Neoplasms	CTD_human	9	0
+umls:C0033578	596	0.145237669884996	BCL2	B-cell CLL/lymphoma 2	Prostatic Neoplasms	CTD_human	22	0
+umls:C0033578	6019	0.125448700484934	RLN2	relaxin 2	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	6038	0.12	RNASE4	ribonuclease, RNase A family, 4	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	6041	0.171948220087172	RNASEL	ribonuclease L (2\',5\'-oligoisoadenylate synthetase-dependent)	Prostatic Neoplasms	CTD_human	21	2
+umls:C0033578	60526	0.122367031978602	C2orf43	chromosome 2 open reading frame 43	Prostatic Neoplasms	CTD_human	1	1
+umls:C0033578	60528	0.147514944296752	ELAC2	elaC ribonuclease Z 2	Prostatic Neoplasms	CTD_human	11	0
+umls:C0033578	606293	0.122724350242467	KLKP1	kallikrein pseudogene 1	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	6134	0.12	RPL10	ribosomal protein L10	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	6136	0.12	RPL12	ribosomal protein L12	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	6185	0.12	RPN2	ribophorin II	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	619402	0.12	HPC5	prostate cancer, hereditary, 5	Prostatic Neoplasms	CTD_human	0	0
+umls:C0033578	6223	0.12	RPS19	ribosomal protein S19	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	6237	0.12	RRAS	related RAS viral (r-ras) oncogene homolog	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	6256	0.202724350242467	RXRA	retinoid X receptor, alpha	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	6293	0.12	VPS52	vacuolar protein sorting 52 homolog (S. cerevisiae)	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	6296	0.12	ACSM3	acyl-CoA synthetase medium-chain family member 3	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	632	0.121085767488321	BGLAP	bone gamma-carboxyglutamate (gla) protein	Prostatic Neoplasms	CTD_human	5	0
+umls:C0033578	6376	0.122724350242467	CX3CL1	chemokine (C-X3-C motif) ligand 1	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	6387	0.147786386168832	CXCL12	chemokine (C-X-C motif) ligand 12	Prostatic Neoplasms	CTD_human	12	0
+umls:C0033578	6414	0.120542883744161	SEPP1	selenoprotein P, plasma, 1	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	64240	0.12	ABCG5	ATP-binding cassette, sub-family G (WHITE), member 5	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	64374	0.12	SIL1	SIL1 nucleotide exchange factor	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	6462	0.12	SHBG	sex hormone-binding globulin	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	64816	0.122724350242467	CYP3A43	cytochrome P450, family 3, subfamily A, polypeptide 43	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	6528	0.120542883744161	SLC5A5	solute carrier family 5 (sodium/iodide cotransporter), member 5	Prostatic Neoplasms	CTD_human	4	0
+umls:C0033578	6541	0.12	SLC7A1	solute carrier family 7 (cationic amino acid transporter, y+ system), member 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	655	0.123267233986628	BMP7	bone morphogenetic protein 7	Prostatic Neoplasms	CTD_human	5	0
+umls:C0033578	6558	0.12	SLC12A2	solute carrier family 12 (sodium/potassium/chloride transporter), member 2	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	658	0.122724350242467	BMPR1B	bone morphogenetic protein receptor, type IB	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	6581	0.123181357594843	SLC22A3	solute carrier family 22 (organic cation transporter), member 3	Prostatic Neoplasms	CTD_human	5	1
+umls:C0033578	664	0.12027144187208	BNIP3	BCL2/adenovirus E1B 19kDa interacting protein 3	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	6648	0.141351607284087	SOD2	superoxide dismutase 2, mitochondrial	Prostatic Neoplasms	CTD_human	12	1
+umls:C0033578	6695	0.12	SPOCK1	sparc/osteonectin, cwcv and kazal-like domains proteoglycan (testican) 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	6715	0.210897400969869	SRD5A1	steroid-5-alpha-reductase, alpha polypeptide 1 (3-oxo-5 alpha-steroid delta 4-dehydrogenase alpha 1)	Prostatic Neoplasms	CTD_human	6	0
+umls:C0033578	6716	0.175572772337665	SRD5A2	steroid-5-alpha-reductase, alpha polypeptide 2 (3-oxo-5 alpha-steroid delta 4-dehydrogenase alpha 2)	Prostatic Neoplasms	CTD_human	25	0
+umls:C0033578	672	0.144989972231306	BRCA1	breast cancer 1, early onset	Prostatic Neoplasms	CTD_human	16	0
+umls:C0033578	6746	0.12	SSR2	signal sequence receptor, beta (translocon-associated protein beta)	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	675	0.216088472279449	BRCA2	breast cancer 2, early onset	Prostatic Neoplasms	CTD_human	10	0
+umls:C0033578	6757	0.12	SSX2	synovial sarcoma, X breakpoint 2	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	6768	0.130897400969869	ST14	suppression of tumorigenicity 14 (colon carcinoma)	Prostatic Neoplasms	CTD_human	5	0
+umls:C0033578	6774	0.138246194559365	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	Prostatic Neoplasms	CTD_human	14	0
+umls:C0033578	678	0.12	ZFP36L2	ZFP36 ring finger protein-like 2	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	6783	0.12027144187208	SULT1E1	sulfotransferase family 1E, estrogen-preferring, member 1	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	6790	0.122367031978602	AURKA	aurora kinase A	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	6817	0.125091382221069	SULT1A1	sulfotransferase family, cytosolic, 1A, phenol-preferring, member 1	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	6820	0.12	SULT2B1	sulfotransferase family, cytosolic, 2B, member 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	6822	0.12	SULT2A1	sulfotransferase family, cytosolic, 2A, dehydroepiandrosterone (DHEA)-preferring, member 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	6836	0.12	SURF4	surfeit 4	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	6885	0.12	MAP3K7	mitogen-activated protein kinase kinase kinase 7	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	6916	0.12	TBXAS1	thromboxane A synthase 1 (platelet)	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	6928	0.144742274577616	HNF1B	HNF1 homeobox B	Prostatic Neoplasms	CTD_human	9	2
+umls:C0033578	6948	0.12	TCN2	transcobalamin II	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	6950	0.12	TCP1	t-complex 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	7001	0.12027144187208	PRDX2	peroxiredoxin 2	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	7012	0.12	TERC	telomerase RNA component	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	7015	0.136531666935098	TERT	telomerase reverse transcriptase	Prostatic Neoplasms	CTD_human	9	1
+umls:C0033578	7039	0.121085767488321	TGFA	transforming growth factor, alpha	Prostatic Neoplasms	CTD_human	4	0
+umls:C0033578	7040	0.150239294539219	TGFB1	transforming growth factor, beta 1	Prostatic Neoplasms	CTD_human	12	0
+umls:C0033578	7048	0.125448700484934	TGFBR2	transforming growth factor, beta receptor II (70/80kDa)	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	7079	0.122995792114547	TIMP4	TIMP metallopeptidase inhibitor 4	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	7099	0.127815732463536	TLR4	toll-like receptor 4	Prostatic Neoplasms	CTD_human	4	0
+umls:C0033578	7100	0.12	TLR5	toll-like receptor 5	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	7110	0.12027144187208	TMF1	TATA element modulatory factor 1	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	7111	0.12	TMOD1	tropomodulin 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	7113	0.160312438371183	TMPRSS2	transmembrane protease, serine 2	Prostatic Neoplasms	CTD_human	23	0
+umls:C0033578	7114	0.12	TMSB4X	thymosin beta 4, X-linked	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	7153	0.12	TOP2A	topoisomerase (DNA) II alpha 170kDa	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	7157	0.168760812145726	TP53	tumor protein p53	Prostatic Neoplasms	CTD_human	40	0
+umls:C0033578	7162	0.12	TPBG	trophoblast glycoprotein	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	7163	0.127815732463536	TPD52	tumor protein D52	Prostatic Neoplasms	CTD_human	3	1
+umls:C0033578	7164	0.12	TPD52L1	tumor protein D52-like 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	7178	0.122724350242467	TPT1	tumor protein, translationally-controlled 1	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	7184	0.122724350242467	HSP90B1	heat shock protein 90kDa beta (Grp94), member 1	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	7185	0.12	TRAF1	TNF receptor-associated factor 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	7263	0.12	TST	thiosulfate sulfurtransferase (rhodanese)	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	7298	0.122724350242467	TYMS	thymidylate synthetase	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	7352	0.12	UCP3	uncoupling protein 3 (mitochondrial, proton carrier)	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	7366	0.128444492599482	UGT2B15	UDP glucuronosyltransferase 2 family, polypeptide B15	Prostatic Neoplasms	CTD_human	5	0
+umls:C0033578	7367	0.131168842841949	UGT2B17	UDP glucuronosyltransferase 2 family, polypeptide B17	Prostatic Neoplasms	CTD_human	5	0
+umls:C0033578	7371	0.12	UCK2	uridine-cytidine kinase 2	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	7372	0.125448700484934	UMPS	uridine monophosphate synthetase	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	7421	0.165956635858077	VDR	vitamin D (1,25- dihydroxyvitamin D3) receptor	Prostatic Neoplasms	CTD_human	18	0
+umls:C0033578	7422	0.169299814714825	VEGFA	vascular endothelial growth factor A	Prostatic Neoplasms	CTD_human	30	0
+umls:C0033578	7430	0.125448700484934	EZR	ezrin	Prostatic Neoplasms	CTD_human	5	0
+umls:C0033578	7431	0.125991584229095	VIM	vimentin	Prostatic Neoplasms	CTD_human	6	0
+umls:C0033578	7432	0.125448700484934	VIP	vasoactive intestinal peptide	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	7515	0.125448700484934	XRCC1	X-ray repair complementing defective repair in Chinese hamster cells 1	Prostatic Neoplasms	CTD_human	4	0
+umls:C0033578	7546	0.12	ZIC2	Zic family member 2	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	7704	0.122724350242467	ZBTB16	zinc finger and BTB domain containing 16	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	7763	0.12	ZFAND5	zinc finger, AN1-type domain 5	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	780	0.122724350242467	DDR1	discoidin domain receptor tyrosine kinase 1	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	7834	0.12	PCAP	predisposing for prostate cancer	Prostatic Neoplasms	CTD_human	0	0
+umls:C0033578	79574	0.12	EPS8L3	EPS8-like 3	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	796	0.126263026101175	CALCA	calcitonin-related polypeptide alpha	Prostatic Neoplasms	CTD_human	5	0
+umls:C0033578	79689	0.12	STEAP4	STEAP family member 4	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	79784	0.12	MYH14	myosin, heavy chain 14, non-muscle	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	79807	0.12	GSTCD	glutathione S-transferase, C-terminal domain containing	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	7984	0.12	ARHGEF5	Rho guanine nucleotide exchange factor (GEF) 5	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	7991	0.12	TUSC3	tumor suppressor candidate 3	Prostatic Neoplasms	CTD_human	0	0
+umls:C0033578	8000	0.128444492599482	PSCA	prostate stem cell antigen	Prostatic Neoplasms	CTD_human	5	0
+umls:C0033578	8086	0.12	AAAS	achalasia, adrenocortical insufficiency, alacrimia	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	81037	0.12	CLPTM1L	CLPTM1-like	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	811	0.12027144187208	CALR	calreticulin	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	81567	0.12	TXNDC5	thioredoxin domain containing 5 (endoplasmic reticulum)	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	8202	0.122995792114547	NCOA3	nuclear receptor coactivator 3	Prostatic Neoplasms	CTD_human	4	0
+umls:C0033578	826	0.12	CAPNS1	calpain, small subunit 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	83259	0.122724350242467	PCDH11Y	protocadherin 11 Y-linked	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	8339	0.12	HIST1H2BG	histone cluster 1, H2bg	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	83606	0.12	GUCD1	guanylyl cyclase domain containing 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	8365	0.12	HIST1H4H	histone cluster 1, H4h	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	8379	0.12	MAD1L1	MAD1 mitotic arrest deficient-like 1 (yeast)	Prostatic Neoplasms	CTD_human	0	0
+umls:C0033578	8405	0.12027144187208	SPOP	speckle-type POZ protein	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	8409	0.122724350242467	UXT	ubiquitously-expressed, prefoldin-like chaperone	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	842	0.122638473850682	CASP9	caspase 9, apoptosis-related cysteine peptidase	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	84519	0.12	ACRBP	acrosin binding protein	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	84818	0.12027144187208	IL17RC	interleukin 17 receptor C	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	8495	0.12	PPFIBP2	PTPRF interacting protein, binding protein 2 (liprin beta 2)	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	8537	0.12	BCAS1	breast carcinoma amplified sequence 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	8560	0.12	DEGS1	delta(4)-desaturase, sphingolipid 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	857	0.140156219185591	CAV1	caveolin 1, caveolae protein, 22kDa	Prostatic Neoplasms	CTD_human	11	0
+umls:C0033578	858	0.12	CAV2	caveolin 2	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	861	0.12	RUNX1	runt-related transcription factor 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	8615	0.12	USO1	USO1 vesicle transport factor	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	8644	0.12027144187208	AKR1C3	aldo-keto reductase family 1, member C3	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	8648	0.12027144187208	NCOA1	nuclear receptor coactivator 1	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	8661	0.12	EIF3A	eukaryotic translation initiation factor 3, subunit A	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	8667	0.122724350242467	EIF3H	eukaryotic translation initiation factor 3, subunit H	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	8702	0.12	B4GALT4	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 4	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	8720	0.12	MBTPS1	membrane-bound transcription factor peptidase, site 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	873	0.12	CBR1	carbonyl reductase 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	8743	0.129258818215723	TNFSF10	tumor necrosis factor (ligand) superfamily, member 10	Prostatic Neoplasms	CTD_human	11	0
+umls:C0033578	8754	0.128173050727402	ADAM9	ADAM metallopeptidase domain 9	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	8797	0.127815732463536	TNFRSF10A	tumor necrosis factor receptor superfamily, member 10a	Prostatic Neoplasms	CTD_human	4	0
+umls:C0033578	8804	0.12	CREG1	cellular repressor of E1A-stimulated genes 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	8829	0.12027144187208	NRP1	neuropilin 1	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	8854	0.12027144187208	ALDH1A2	aldehyde dehydrogenase 1 family, member A2	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	8895	0.122724350242467	CPNE3	copine III	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	8932	0.12	MBD2	methyl-CpG binding domain protein 2	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	894	0.122995792114547	CCND2	cyclin D2	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	9	0.125448700484934	NAT1	N-acetyltransferase 1 (arylamine N-acetyltransferase)	Prostatic Neoplasms	CTD_human	3	0
+umls:C0033578	90338	0.12	ZNF160	zinc finger protein 160	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	9080	0.12	CLDN9	claudin 9	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	9189	0.122171534976642	ZBED1	zinc finger, BED-type containing 1	Prostatic Neoplasms	CTD_human	9	0
+umls:C0033578	9203	0.12	ZMYM3	zinc finger, MYM-type 3	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	92105	0.12	INTS4	integrator complex subunit 4	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	928	0.122724350242467	CD9	CD9 molecule	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	93611	0.12	FBXO44	F-box protein 44	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	9380	0.12	GRHPR	glyoxylate reductase/hydroxypyruvate reductase	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	9420	0.122995792114547	CYP7B1	cytochrome P450, family 7, subfamily B, polypeptide 1	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	9446	0.12	GSTO1	glutathione S-transferase omega 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	9518	0.136888985198964	GDF15	growth differentiation factor 15	Prostatic Neoplasms	CTD_human	9	0
+umls:C0033578	9538	0.12	EI24	etoposide induced 2.4	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	9566	0.12	HPCX	hereditary prostate cancer, X-linked	Prostatic Neoplasms	CTD_human	0	0
+umls:C0033578	9687	0.122724350242467	GREB1	growth regulation by estrogen in breast cancer 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	9709	0.12	HERPUD1	homocysteine-inducible, endoplasmic reticulum stress-inducible, ubiquitin-like domain member 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	9817	0.12	KEAP1	kelch-like ECH-associated protein 1	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	9968	0.12027144187208	MED12	mediator complex subunit 12	Prostatic Neoplasms	CTD_human	2	0
+umls:C0033578	9985	0.12	REC8	REC8 meiotic recombination protein	Prostatic Neoplasms	CTD_human	1	0
+umls:C0033578	999	0.172034096478957	CDH1	cadherin 1, type 1, E-cadherin (epithelial)	Prostatic Neoplasms	CTD_human	22	0
+umls:C0038356	53635	0.12	PTOV1	prostate tumor overexpressed 1	Stomach Neoplasms	CTD_human	1	0
+umls:C0038356	8000	0.134830952007558	PSCA	prostate stem cell antigen	Stomach Neoplasms	CTD_human	7	0
+umls:C0242656	53635	0.12	PTOV1	prostate tumor overexpressed 1	Disease Progression	CTD_human	1	0
+umls:C0282612	1027	0.123267233986628	CDKN1B	cyclin-dependent kinase inhibitor 1B (p27, Kip1)	Prostatic Intraepithelial Neoplasias	CTD_human	3	0
+umls:C0282612	1786	0.12027144187208	DNMT1	DNA (cytosine-5-)-methyltransferase 1	Prostatic Intraepithelial Neoplasias	CTD_human	2	0
+umls:C0282612	2099	0.2	ESR1	estrogen receptor 1	Prostatic Intraepithelial Neoplasias	CTD_human	2	0
+umls:C0282612	2100	0.2	ESR2	estrogen receptor 2 (ER beta)	Prostatic Intraepithelial Neoplasias	CTD_human	2	0
+umls:C0282612	2950	0.20489588521911	GSTP1	glutathione S-transferase pi 1	Prostatic Intraepithelial Neoplasias	CTD_human	11	0
+umls:C0282612	367	0.124081559602869	AR	androgen receptor	Prostatic Intraepithelial Neoplasias	CTD_human	7	0
+umls:C0282612	4502	0.12	MT2A	metallothionein 2A	Prostatic Intraepithelial Neoplasias	CTD_human	1	0
+umls:C0282612	5292	0.123267233986628	PIM1	Pim-1 proto-oncogene, serine/threonine kinase	Prostatic Intraepithelial Neoplasias	CTD_human	3	0
+umls:C0282612	5728	0.121085767488321	PTEN	phosphatase and tensin homolog	Prostatic Intraepithelial Neoplasias	CTD_human	6	0
+umls:C0282612	7155	0.12	TOP2B	topoisomerase (DNA) II beta 180kDa	Prostatic Intraepithelial Neoplasias	CTD_human	1	0
+umls:C0282612	999	0.12	CDH1	cadherin 1, type 1, E-cadherin (epithelial)	Prostatic Intraepithelial Neoplasias	CTD_human	1	0
+umls:C0376358	100048912	0.12027144187208	CDKN2B-AS1	CDKN2B antisense RNA 1	Malignant neoplasm of prostate	GWASCAT	2	1
+umls:C0376358	100505495	0.12	PCAT19	prostate cancer associated transcript 19 (non-protein coding)	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	100846978	0.12	LINC00506	long intergenic non-protein coding RNA 506	Malignant neoplasm of prostate	GWASCAT	2	2
+umls:C0376358	101805488	0.12	CCAT2	colon cancer associated transcript 2 (non-protein coding)	Malignant neoplasm of prostate	GWASCAT	5	1
+umls:C0376358	101867536	0.121357209360402	PRNCR1	prostate cancer associated non-coding RNA 1	Malignant neoplasm of prostate	GWASCAT	10	5
+umls:C0376358	101928075	0.12	LOC101928075	uncharacterized LOC101928075	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	101928165	0.12	CASC17	cancer susceptibility candidate 17 (non-protein coding)	Malignant neoplasm of prostate	GWASCAT	5	2
+umls:C0376358	101929081	0.12	CTD-2194D22.4	uncharacterized LOC101929081	Malignant neoplasm of prostate	GWASCAT	2	1
+umls:C0376358	102724596	0.12	LOC102724596	uncharacterized LOC102724596	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	10481	0.12895758177865	HOXB13	homeobox B13	Malignant neoplasm of prostate	UNIPROT	33	1
+umls:C0376358	10611	0.127643979679967	PDLIM5	PDZ and LIM domain 5	Malignant neoplasm of prostate	GWASCAT	5	2
+umls:C0376358	10979	0.12027144187208	FERMT2	fermitin family member 2	Malignant neoplasm of prostate	GWASCAT	2	1
+umls:C0376358	11074	0.12	TRIM31	tripartite motif containing 31	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	11200	0.138349764822937	CHEK2	checkpoint kinase 2	Malignant neoplasm of prostate	UNIPROT	25	6
+umls:C0376358	116113	0.123181357594843	FOXP4	forkhead box P4	Malignant neoplasm of prostate	GWASCAT	3	2
+umls:C0376358	1488	0.151585741338067	CTBP2	C-terminal binding protein 2	Malignant neoplasm of prostate	GWASCAT	16	1
+umls:C0376358	1499	0.202171534976642	CTNNB1	catenin (cadherin-associated protein), beta 1, 88kDa	Malignant neoplasm of prostate	CLINVAR	8	1
+umls:C0376358	170626	0.12	XAGE3	X antigen family, member 3	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	173	0.12	AFM	afamin	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	201625	0.12	DNAH12	dynein, axonemal, heavy chain 12	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	2048	0.131867497501413	EPHB2	EPH receptor B2	Malignant neoplasm of prostate	UNIPROT	36	2
+umls:C0376358	220972	0.12	MARCH8	membrane-associated ring finger (C3HC4) 8, E3 ubiquitin protein ligase	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	222546	0.123995683211084	RFX6	regulatory factor X, 6	Malignant neoplasm of prostate	GWASCAT	6	1
+umls:C0376358	2255	0.12	FGF10	fibroblast growth factor 10	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	22834	0.120542883744161	ZNF652	zinc finger protein 652	Malignant neoplasm of prostate	GWASCAT	3	1
+umls:C0376358	22853	0.146308793636703	LMTK2	lemur tyrosine kinase 2	Malignant neoplasm of prostate	GWASCAT	13	1
+umls:C0376358	22995	0.12	CEP152	centrosomal protein 152kDa	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	23035	0.12	PHLPP2	PH domain and leucine rich repeat protein phosphatase 2	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	23112	0.127101095935806	TNRC6B	trinucleotide repeat containing 6B	Malignant neoplasm of prostate	GWASCAT	3	1
+umls:C0376358	23301	0.151042857593907	EHBP1	EH domain binding protein 1	Malignant neoplasm of prostate	GWASCAT	13	1
+umls:C0376358	23394	0.12	ADNP	activity-dependent neuroprotector homeobox	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	253461	0.12	ZBTB38	zinc finger and BTB domain containing 38	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	254428	0.12	SLC41A1	solute carrier family 41 (magnesium transporter), member 1	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	26019	0.12	UPF2	UPF2 regulator of nonsense transcripts homolog (yeast)	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	26575	0.12027144187208	RGS17	regulator of G-protein signaling 17	Malignant neoplasm of prostate	GWASCAT	2	1
+umls:C0376358	29841	0.12	GRHL1	grainyhead-like 1 (Drosophila)	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	354	0.261542831443653	KLK3	kallikrein-related peptidase 3	Malignant neoplasm of prostate	GWASCAT	781	17
+umls:C0376358	357	0.12	SHROOM2	shroom family member 2	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	3655	0.127372537807886	ITGA6	integrin, alpha 6	Malignant neoplasm of prostate	GWASCAT	4	1
+umls:C0376358	367	0.28	AR	androgen receptor	Malignant neoplasm of prostate	CLINVAR	1372	12
+umls:C0376358	3782	0.12	KCNN3	potassium channel, calcium activated intermediate/small conductance subfamily N alpha, member 3	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	390443	0.12	RNASE9	ribonuclease, RNase A family, 9 (non-active)	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	4194	0.123724241339004	MDM4	MDM4, p53 regulator	Malignant neoplasm of prostate	GWASCAT	6	3
+umls:C0376358	4316	0.124538566955244	MMP7	matrix metallopeptidase 7 (matrilysin, uterine)	Malignant neoplasm of prostate	GWASCAT	10	2
+umls:C0376358	4477	0.25555984060457	MSMB	microseminoprotein, beta-	Malignant neoplasm of prostate	GWASCAT	56	3
+umls:C0376358	4481	0.167839916054483	MSR1	macrophage scavenger receptor 1	Malignant neoplasm of prostate	CLINVAR	32	7
+umls:C0376358	4601	0.241628651232482	MXI1	MAX interactor 1, dimerization protein	Malignant neoplasm of prostate	CLINVAR,UNIPROT	6	2
+umls:C0376358	4646	0.121357209360402	MYO6	myosin VI	Malignant neoplasm of prostate	GWASCAT	6	1
+umls:C0376358	4739	0.12	NEDD9	neural precursor cell expressed, developmentally down-regulated 9	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	4855	0.12	NOTCH4	notch 4	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	51426	0.12	POLK	polymerase (DNA directed) kappa	Malignant neoplasm of prostate	CLINVAR	0	11
+umls:C0376358	5195	0.12	PEX14	peroxisomal biogenesis factor 14	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	54535	0.12	CCHCR1	coiled-coil alpha-helical rod protein 1	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	54847	0.12	SIDT1	SID1 transmembrane family, member 1	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	55204	0.12	GOLPH3L	golgi phosphoprotein 3-like	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	55275	0.12	VPS53	vacuolar protein sorting 53 homolog (S. cerevisiae)	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	55971	0.12	BAIAP2L1	BAI1-associated protein 2-like 1	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	5728	0.263876054462308	PTEN	phosphatase and tensin homolog	Malignant neoplasm of prostate	UNIPROT	185	0
+umls:C0376358	5890	0.12	RAD51B	RAD51 paralog B	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	60678	0.124734063957204	EEFSEC	eukaryotic elongation factor, selenocysteine-tRNA-specific	Malignant neoplasm of prostate	GWASCAT	2	1
+umls:C0376358	63892	0.127372537807886	THADA	thyroid adenoma associated	Malignant neoplasm of prostate	GWASCAT	4	1
+umls:C0376358	64641	0.12	EBF2	early B-cell factor 2	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	64759	0.12	TNS3	tensin 3	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	6581	0.154571601930951	SLC22A3	solute carrier family 22 (organic cation transporter), member 3	Malignant neoplasm of prostate	GWASCAT	26	1
+umls:C0376358	675	0.1827692190189	BRCA2	breast cancer 2, early onset	Malignant neoplasm of prostate	CLINVAR	87	1
+umls:C0376358	6899	0.12	TBX1	T-box 1	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	6928	0.168773793802563	HNF1B	HNF1 homeobox B	Malignant neoplasm of prostate	GWASCAT	32	5
+umls:C0376358	7015	0.126438660059807	TERT	telomerase reverse transcriptase	Malignant neoplasm of prostate	GWASCAT	16	3
+umls:C0376358	7157	0.229924159890752	TP53	tumor protein p53	Malignant neoplasm of prostate	CLINVAR	255	5
+umls:C0376358	727677	0.12	CASC8	cancer susceptibility candidate 8 (non-protein coding)	Malignant neoplasm of prostate	GWASCAT	4	1
+umls:C0376358	728114	0.12	LOC728114	uncharacterized LOC728114	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	79083	0.12	MLPH	melanophilin	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	79954	0.12	NOL10	nucleolar protein 10	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	81603	0.12	TRIM8	tripartite motif containing 8	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	84071	0.122367031978602	ARMC2	armadillo repeat containing 2	Malignant neoplasm of prostate	GWASCAT	2	1
+umls:C0376358	84619	0.12027144187208	ZGPAT	zinc finger, CCCH-type with G patch domain	Malignant neoplasm of prostate	GWASCAT	2	1
+umls:C0376358	9177	0.12	HTR3B	5-hydroxytryptamine (serotonin) receptor 3B, ionotropic	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C0376358	9855	0.12	FARP2	FERM, RhoGEF and pleckstrin domain protein 2	Malignant neoplasm of prostate	GWASCAT	1	1
+umls:C1334615	354	0.12	KLK3	kallikrein-related peptidase 3	Malignant Phyllodes Tumor of Prostate	CTD_human	1	0
+umls:C1836005	100188789	0.12	HPC6	Prostate cancer, susceptibility to	Prostate Cancer, Hereditary, 6	CTD_human	0	0
+umls:C1836436	619402	0.12	HPC5	prostate cancer, hereditary, 5	Prostate Cancer, Hereditary, 5	CTD_human	0	0
+umls:C1837593	408260	0.12	HPC4	Prostate cancer, hereditary, 4	Prostate Cancer, Hereditary, 4	CTD_human	0	0
+umls:C1837595	408259	0.12	HPC3	Prostate cancer, hereditary, 3	PROSTATE CANCER, HEREDITARY, 3	CTD_human	0	0
+umls:C1846279	9566	0.12	HPCX	hereditary prostate cancer, X-linked	PROSTATE CANCER, HEREDITARY, X-LINKED 1	CTD_human	0	0
+umls:C1853195	100188809	0.12	HPC7	Prostate cancer, hereditary, 7	Prostate Cancer, Hereditary, 7	CTD_human	0	0
+umls:C1863600	2048	0.24	EPHB2	EPH receptor B2	PROSTATE CANCER/BRAIN CANCER SUSCEPTIBILITY (finding)	CLINVAR,CTD_human	0	4
+umls:C1864472	7834	0.12	PCAP	predisposing for prostate cancer	PROSTATE CANCER, HEREDITARY, 8	CTD_human	0	0
+umls:C1970192	100188834	0.12	HPC10	Prostate cancer, hereditary, 10	Prostate Cancer, Hereditary, 10	CTD_human	0	0
+umls:C1970250	100188826	0.12	HPC9	Prostate cancer, hereditary, 9	Prostate Cancer, Hereditary, 9	CTD_human	0	0
+umls:C2677771	100188868	0.12	HPC15	Prostate cancer, hereditary, 15	Prostate Cancer, Hereditary, 15	CTD_human	0	0
+umls:C2677772	100188867	0.12	HPC14	Prostate cancer, hereditary, 14	Prostate Cancer, Hereditary, 14	CTD_human	0	0
+umls:C2677773	6928	0.12	HNF1B	HNF1 homeobox B	Prostate Cancer, Hereditary, 11	CTD_human	0	0
+umls:C2677821	4477	0.24	MSMB	microseminoprotein, beta-	Prostate Cancer, Hereditary, 13	CLINVAR,CTD_human	0	1
+umls:C2678047	100188769	0.12	HPCX2	Prostate cancer, hereditary, X-linked 2	Prostate Cancer, Hereditary, X-Linked 2	CTD_human	0	0
+umls:C2678479	23301	0.24	EHBP1	EH domain binding protein 1	Prostate Cancer, Hereditary, 12	CLINVAR,CTD_human	0	1
+umls:C2931456	10481	0.241628651232482	HOXB13	homeobox B13	Prostate cancer, familial	CTD_human,ORPHANET	6	1
+umls:C2931456	11200	0.240814325616241	CHEK2	checkpoint kinase 2	Prostate cancer, familial	CTD_human,ORPHANET	3	0
+umls:C2931456	2048	0.12027144187208	EPHB2	EPH receptor B2	Prostate cancer, familial	ORPHANET	1	0
+umls:C2931456	4477	0.12027144187208	MSMB	microseminoprotein, beta-	Prostate cancer, familial	ORPHANET	1	0
+umls:C2931456	4481	0.122171534976642	MSR1	macrophage scavenger receptor 1	Prostate cancer, familial	ORPHANET	8	0
+umls:C2931456	4683	0.12	NBN	nibrin	Prostate cancer, familial	ORPHANET	0	0
+umls:C2931456	6041	0.364343069953285	RNASEL	ribonuclease L (2\',5\'-oligoisoadenylate synthetase-dependent)	Prostate cancer, familial	CLINVAR,CTD_human,ORPHANET	16	6
+umls:C2931456	60528	0.122442976848723	ELAC2	elaC ribonuclease Z 2	Prostate cancer, familial	ORPHANET	9	0
+umls:C2931456	6716	0.12027144187208	SRD5A2	steroid-5-alpha-reductase, alpha polypeptide 2 (3-oxo-5 alpha-steroid delta 4-dehydrogenase alpha 2)	Prostate cancer, familial	ORPHANET	1	0
+umls:C2931456	672	0.121357209360402	BRCA1	breast cancer 1, early onset	Prostate cancer, familial	ORPHANET	5	0
+umls:C2931456	675	0.121900093104562	BRCA2	breast cancer 2, early onset	Prostate cancer, familial	ORPHANET	7	0
+umls:C2931456	6928	0.12	HNF1B	HNF1 homeobox B	Prostate cancer, familial	ORPHANET	0	0
+umls:C2931456	999	0.12027144187208	CDH1	cadherin 1, type 1, E-cadherin (epithelial)	Prostate cancer, familial	CTD_human	2	0
+umls:C2937421	2252	0.122995792114547	FGF7	fibroblast growth factor 7	Prostatic Hyperplasia	CTD_human	3	0
+umls:C2937421	354	0.130540082706004	KLK3	kallikrein-related peptidase 3	Prostatic Hyperplasia	CTD_human	5	0
+umls:C2937421	5617	0.12027144187208	PRL	prolactin	Prostatic Hyperplasia	CTD_human	2	0
+umls:C2937421	6716	0.142375242599014	SRD5A2	steroid-5-alpha-reductase, alpha polypeptide 2 (3-oxo-5 alpha-steroid delta 4-dehydrogenase alpha 2)	Prostatic Hyperplasia	CTD_human	9	0
+umls:C3495559	55	0.12	ACPP	acid phosphatase, prostate	Juvenile arthritis	CTD_human	1	0
+umls:C3539120	60528	0.24	ELAC2	elaC ribonuclease Z 2	PROSTATE CANCER, HEREDITARY, 2	CLINVAR,UNIPROT	4	6
+umls:C3658267	8644	0.12	AKR1C3	aldo-keto reductase family 1, member C3	Prostatic Neoplasms, Castration-Resistant	CTD_human	1	0
