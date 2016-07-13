@@ -82,7 +82,7 @@ def calculate_scores(entries_list):
         scores.write('{}\t{}\n'.format(str(cluster)[:-2], score))
 
 
-with open('clean/' + algorithm + '/' + clean_filename, 'r') as clean, \
+with open(clean_filename, 'r') as clean, \
         open('tests/' + genes_filename, 'r') as genes, \
         open(results_filename, 'w') as results, \
         open(scores_filename, 'w') as scores:

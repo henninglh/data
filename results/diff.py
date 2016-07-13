@@ -22,7 +22,7 @@ def levenshtein(x, y):
     cur = range(a+1)
     for i in range(1, b + 1):
         prev = cur
-        cur = [i]+[0]*a
+        cur = [i] + [0] * a
 
         for j in range(1, a + 1):
             add_action = prev[j] + 1
@@ -49,7 +49,6 @@ with open(filename + '_results.tsv', 'r') as results_file, \
     scores = [line.split('\t')[0].strip() for line in scores_file.readlines()]
 
     matcher = SequenceMatcher(None, results, scores)
-    #diff = len(matcher.get_opcodes())
     diff = matcher.ratio()
     result_string = 'Final result from <{}> is "{}"'.format(filename, diff)
     print result_string
