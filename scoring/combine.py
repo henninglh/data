@@ -19,7 +19,7 @@ with open(genes_filename, 'r') as genes,\
     for line in scores.readlines():
         gene_name, score  = line.split('\t')
 
-        if gene_name in approved_genes:
+        if gene_name.strip() in approved_genes:
             combined.write(line)
             approved_genes.remove(gene_name)
 

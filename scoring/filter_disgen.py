@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import sys
 
-with open('prostate_only.tsv', 'r') as disgen,\
+with open('curated_gene_disease_associations.tsv', 'r') as disgen,\
         open('disgen_clean.tsv', 'w') as pscores:
 
     disgen.readline() # remoe the header
