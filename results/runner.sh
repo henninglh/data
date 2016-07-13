@@ -4,5 +4,5 @@
 # $2 is ranking algorithm in upper case letters
 
 for x in *.csv; do
-    ./clean.py x "$1 $2";
+    ./clean.py $x $1 $2 $3;
 done

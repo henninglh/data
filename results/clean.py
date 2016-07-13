@@ -2,8 +2,6 @@
 import pandas as pd
 import sys
 
-print 'Usage: <file-to-clean> <clustering> <ranking> <scores...>'
-
 unclean = sys.argv[1].strip()
 clustering = sys.argv[2].strip() # clustering algorithm
 ranking = sys.argv[3].strip() # ranking algorithm
@@ -21,5 +19,6 @@ for score in scorings:
 #cols.remove('score')  # make this more dynamic?
 #cols.remove('Unnamed: 0')
 table.fillna(value=0)
+table = table[table[ranking] != -1]
 table.to_csv('clean/' + clustering + '/' + clean_filename, na_rep=-1,
              index=False, sep='\t', columns=list(cols))

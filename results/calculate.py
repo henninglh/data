@@ -71,6 +71,8 @@ def calculate_scores(entries_list):
         if not cluster in cluster_scores:
             cluster_scores[cluster] = float(score)
 
+    if '-1' in cluster_scores:
+        del cluster_scores['-1']
     # Sort after cluster score descending, then cluster number ascending
     cluster_scores_sorted = OrderedDict(sorted(cluster_scores.items(),
                                            key=lambda x: (x[1], -float(x[0])),
