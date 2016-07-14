@@ -6,3 +6,7 @@
 for x in *.csv; do
     ./clean.py $x $1 $2 $3;
 done
+
+# Then run calculate.py
+# Then run diff.py
+# Then run candidate.py

@@ -3,11 +3,10 @@ import sys
 import operator
 from collections import OrderedDict
 
-print 'Usage: clean/algorithm/<clean-file> tests/<genes-file> <clustering>'
+print 'Usage: <clean-file> tests/<genes-file>'
 
 clean_filename = sys.argv[1].strip()
 genes_filename = sys.argv[2].strip()
-algorithm = sys.argv[3].strip()
 results_filename = genes_filename[:-4] + '_results.tsv'
 scores_filename = genes_filename[:-4] + '_scores.tsv'
 
