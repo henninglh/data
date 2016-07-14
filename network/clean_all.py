@@ -5,7 +5,7 @@ import pandas as pd
 mitab_name = 'mitab_lite.tsv'
 
 # Clean MITAB-MINI file from iRefWeb
-mitab_table = pd.read_table('mitab_lite_50073.txt')
+mitab_table = pd.read_table('mitab_lite_109276.txt')
 mitab_table.to_csv(mitab_name, sep='\t', columns=['a_alias', 'b_alias'],
         index=False)
 
