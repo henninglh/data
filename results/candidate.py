@@ -56,12 +56,3 @@ with open(clean_file, 'r') as results_file,\
         candidate_file.write('{}\t{}\t{}\n'.format(rank, cluster,
             candidate_format))
         rank += 1
-    
-
-
-
-
-    #clusters_sorted = OrderedDict(sorted(clusters.items(),
-    #                                     key=lambda x: (x[1]['score'],
-    #                                         -float(x[0])),
-    #                                    reverse=True))

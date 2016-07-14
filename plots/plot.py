@@ -1,8 +1,11 @@
 #!/usr/bin/env python
 
 import matplotlib.pyplot as plt
+import sys
 
-with open('candidates.tsv', 'r') as candidate_file:
+filename = sys.argv[1]
+
+with open(filename, 'r') as candidate_file:
     candidate_file.readline()
 
     ranks = []
@@ -23,7 +26,7 @@ with open('candidates.tsv', 'r') as candidate_file:
     ax.get_yaxis().tick_left()
 
     plt.xticks(range(0, len(candidates) + 1, 1), fontsize=14)
-    plt.yticks(range(0, (len(ranks) + 20), 10), fontsize=14)
+    plt.yticks(range(0, len(ranks), 5), fontsize=14)
 
     plt.title('Candidate biomarker distribution', fontsize=20)
     plt.xlabel('Biomarkers', fontsize=16)
