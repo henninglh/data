@@ -1,0 +1,138 @@
+Human Symbol,Relative Rank,Cancer Type,COSMIC,CGC
+ERBIN,B,Liver Cancer,No,No
+ERBIN,C,Nervous System Cancer,No,No
+ERBIN,C,Nervous System Cancer,No,No
+ERBIN,D,Pancreatic Cancer,No,No
+ERBIN,A,Colorectal Cancer,No,No
+ERBIN,B,Sarcoma,No,No
+ERBIN,C,Pancreatic Cancer,No,No
+ERBIN,B,Pancreatic Cancer,No,No
+ERBIN,C,Skin Cancer,No,No
+ERBIN,C,Nervous System Cancer,No,No
+ERBIN,C,Nervous System Cancer,No,No
+ERBIN,A,Colorectal Cancer,No,No
+ERBIN,A,Colorectal Cancer,No,No
+ERBIN,A,Colorectal Cancer,No,No
+ERBIN,B,Gastric Cancer,No,No
+ERBIN,Not Ranked,Nervous System Cancer,No,No
+FBXO11,C,Liver Cancer,Yes,Yes
+FBXO11,D,Pancreatic Cancer,Yes,Yes
+FBXO11,C,Colorectal Cancer,Yes,Yes
+FBXO11,B,Sarcoma,Yes,Yes
+FBXO11,D,Pancreatic Cancer,Yes,Yes
+FBXO11,D,Pancreatic Cancer,Yes,Yes
+FBXO11,D,Nervous System Cancer,Yes,Yes
+FBXO11,D,Nervous System Cancer,Yes,Yes
+FBXO11,B,Colorectal Cancer,Yes,Yes
+FBXO11,C,Colorectal Cancer,Yes,Yes
+FBXO11,D,Gastric Cancer,Yes,Yes
+ROCK1,B,Liver Cancer,No,No
+ROCK1,B,Lung Cancer,No,No
+ROCK1,B,Liver Cancer,No,No
+ROCK1,B,Nervous System Cancer,No,No
+ROCK1,D,Pancreatic Cancer,No,No
+ROCK1,C,Pancreatic Cancer,No,No
+ROCK1,D,Skin Cancer,No,No
+ROCK1,C,Nervous System Cancer,No,No
+ROCK1,B,Nervous System Cancer,No,No
+ROCK1,D,Colorectal Cancer,No,No
+ROCK1,A,Gastric Cancer,No,No
+UBE2D2,A,Liver Cancer,Yes,No
+UBE2D2,D,Sarcoma,Yes,No
+UBE2D2,D,Sarcoma,Yes,No
+UBE2D2,D,Pancreatic Cancer,Yes,No
+UBE2D2,D,Nervous System Cancer,Yes,No
+UBE2D2,D,Colorectal Cancer,Yes,No
+UBE2D2,A,Colorectal Cancer,Yes,No
+UBE2D2,A,Colorectal Cancer,Yes,No
+SIN3A,B,Liver Cancer,Yes,No
+SIN3A,B,Blood Cancer,Yes,No
+SIN3A,D,Blood Cancer,Yes,No
+SIN3A,B,Colorectal Cancer,Yes,No
+SIN3A,C,Pancreatic Cancer,Yes,No
+SIN3A,D,Pancreatic Cancer,Yes,No
+SIN3A,B,Colorectal Cancer,Yes,No
+EP400,C,Liver Cancer,Yes,No
+EP400,C,Colorectal Cancer,Yes,No
+EP400,D,Colorectal Cancer,Yes,No
+EP400,D,Colorectal Cancer,Yes,No
+EP400,D,Colorectal Cancer,Yes,No
+EP400,C,Gastric Cancer,Yes,No
+ARID4A,C,Liver Cancer,Yes,No
+ARID4A,Not Ranked,Colorectal Cancer,Yes,No
+ARID4A,D,Nervous System Cancer,Yes,No
+ARID4A,C,Blood Cancer,Yes,No
+ARID4A,Not Ranked,Nervous System Cancer,Yes,No
+CBX5,D,Liver Cancer,Yes,No
+CBX5,Not Ranked,Mixed,Yes,No
+CBX5,Not Ranked,Colorectal Cancer,Yes,No
+CBX5,C,Pancreatic Cancer,Yes,No
+CBX5,D,Colorectal Cancer,Yes,No
+MED15,C,Liver Cancer,Yes,No
+MED15,D,Pancreatic Cancer,Yes,No
+MED15,C,Colorectal Cancer,Yes,No
+MED15,C,Colorectal Cancer,Yes,No
+MED15,C,Gastric Cancer,Yes,No
+LIN54,B,Colorectal Cancer,Yes,No
+LIN54,D,Skin Cancer,Yes,No
+LIN54,Not Ranked,Blood Cancer,Yes,No
+LIN54,D,Colorectal Cancer,Yes,No
+SIAH1,D,Liver Cancer,Yes,No
+SIAH1,C,Pancreatic Cancer,Yes,No
+SIAH1,C,Pancreatic Cancer,Yes,No
+SIAH1,D,Colorectal Cancer,Yes,No
+CDC27,C,Liver Cancer,Yes,No
+CDC27,A,Colorectal Cancer,Yes,No
+CDC27,B,Nervous System Cancer,Yes,No
+HNRNPH3,D,Liver Cancer,Yes,No
+HNRNPH3,D,Pancreatic Cancer,Yes,No
+HNRNPH3,D,Pancreatic Cancer,Yes,No
+KLC1,Not Ranked,Colorectal Cancer,Yes,No
+KLC1,D,Pancreatic Cancer,Yes,No
+KLC1,D,Colorectal Cancer,Yes,No
+MYL12A,D,Liver Cancer,Yes,No
+MYL12A,D,Pancreatic Cancer,Yes,No
+MYL12A,Not Ranked,Blood Cancer,Yes,No
+RBBP7,D,Liver Cancer,Yes,No
+RBBP7,Not Ranked,Colorectal Cancer,Yes,No
+RBBP7,D,Colorectal Cancer,Yes,No
+CCNK,C,Liver Cancer,Yes,No
+CCNK,D,Colorectal Cancer,Yes,No
+ITGB1BP2,D,Liver Cancer,Yes,No
+ITGB1BP2,Not Ranked,Colorectal Cancer,Yes,No
+RBBP4,D,Liver Cancer,Yes,No
+RBBP4,Not Ranked,Colorectal Cancer,Yes,No
+RPL24,D,Liver Cancer,Yes,No
+RPL24,Not Ranked,Colorectal Cancer,Yes,No
+SPRY1,Not Ranked,Blood Cancer,Yes,No
+SPRY1,Not Ranked,Blood Cancer,Yes,No
+SUDS3,D,Liver Cancer,Yes,No
+SUDS3,Not Ranked,Colorectal Cancer,Yes,No
+BMP8B,Not Ranked,Colorectal Cancer,Yes,No
+CBLC,Not Ranked,Colorectal Cancer,Yes,Yes
+CDC26,Not Ranked,Colorectal Cancer,Yes,No
+CDK5RAP3,Not Ranked,Colorectal Cancer,Yes,No
+COPG1,Not Ranked,Colorectal Cancer,No,No
+COPZ2,Not Ranked,Colorectal Cancer,No,No
+E2F2,Not Ranked,Colorectal Cancer,Yes,No
+EIF3C,D,Liver Cancer,Yes,No
+EIF3D,Not Ranked,Colorectal Cancer,Yes,No
+EIF3K,Not Ranked,Colorectal Cancer,Yes,No
+EIF3L,C,Pancreatic Cancer,Yes,No
+EIF3M,D,Liver Cancer,Yes,No
+FBXO31,Not Ranked,Colorectal Cancer,Yes,No
+GTF2H3,Not Ranked,Colorectal Cancer,Yes,No
+KPNA6,Not Ranked,Colorectal Cancer,No,No
+MNAT1,B,Nervous System Cancer,Yes,No
+MYBBP1A,Not Ranked,Colorectal Cancer,Yes,No
+NFYB,D,Liver Cancer,Yes,No
+PCGF6,Not Ranked,Blood Cancer,Yes,No
+PLXNB1,D,Pancreatic Cancer,Yes,No
+RNF19A,A,Liver Cancer,Yes,No
+RPS16,D,Gastric Cancer,Yes,No
+RPS9,D,Liver Cancer,Yes,No
+SENP3,Not Ranked,Colorectal Cancer,No,No
+SETD7,Not Ranked,Colorectal Cancer,Yes,No
+TRAF2,D,Liver Cancer,Yes,No
+UBASH3B,Not Ranked,Nervous System Cancer,Yes,No
+XRCC6,Not Ranked,Colorectal Cancer,Yes,No

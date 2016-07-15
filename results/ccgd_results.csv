@@ -1,0 +1,139 @@
+"Mouse Symbol","Mouse ID","Mouse Chr","Homologene ID","Human Symbol","Human ID","Rat Symbol","Rat ID","Drosophila Symbol","Drosophila ID","Zebrafish Symbol","Zebrafish ID","Yeast Symbol","Yeast ID",COSMIC,CGC,Study,"PubMed ID","Predicted Effect","CIS Address","Relative Rank","Cancer Type",Studies
+Erbb2ip,59079,13,41282,ERBIN,55914,Erbin,365661,,,erbb2ip,566811,,,No,No,"Bard-Chapeau 2014-01",24316982,"Not Determined",13:103818785-103920514,B,"Liver Cancer",16
+Erbb2ip,59079,13,41282,ERBIN,55914,Erbin,365661,,,erbb2ip,566811,,,No,No,"Koso 2012-01",23045694,"Not Determined",13:103818787-103920514,C,"Nervous System Cancer",16
+Erbb2ip,59079,13,41282,ERBIN,55914,Erbin,365661,,,erbb2ip,566811,,,No,No,"Koso 2012-02",23045694,"Not Determined",13:103818787-103920514,C,"Nervous System Cancer",16
+Erbb2ip,59079,13,41282,ERBIN,55914,Erbin,365661,,,erbb2ip,566811,,,No,No,"Mann 2012-01",22421440,Loss,13:103863456-103863456,D,"Pancreatic Cancer",16
+Erbb2ip,59079,13,41282,ERBIN,55914,Erbin,365661,,,erbb2ip,566811,,,No,No,"March 2011-01",22057237,"Not Determined",13:103764279-103940012,A,"Colorectal Cancer",16
+Erbb2ip,59079,13,41282,ERBIN,55914,Erbin,365661,,,erbb2ip,566811,,,No,No,"Moriarity 2015-03",25961939,Loss,13:103818791-103920514,B,Sarcoma,16
+Erbb2ip,59079,13,41282,ERBIN,55914,Erbin,365661,,,erbb2ip,566811,,,No,No,"Perez Mancera 2012-01",22699621,"Not Determined",13:103833826-103889349,C,"Pancreatic Cancer",16
+Erbb2ip,59079,13,41282,ERBIN,55914,Erbin,365661,,,erbb2ip,566811,,,No,No,"Perez Mancera 2012-02",22699621,"Not Determined",13:103886534-103886534,B,"Pancreatic Cancer",16
+Erbb2ip,59079,13,41282,ERBIN,55914,Erbin,365661,,,erbb2ip,566811,,,No,No,"Perna 2015-01",25624498,"Not Determined",13:103870470-103870470,C,"Skin Cancer",16
+Erbb2ip,59079,13,41282,ERBIN,55914,Erbin,365661,,,erbb2ip,566811,,,No,No,"Rahrmann 2013-01",23685747,"Not Determined",13:103818787-103920514,C,"Nervous System Cancer",16
+Erbb2ip,59079,13,41282,ERBIN,55914,Erbin,365661,,,erbb2ip,566811,,,No,No,"Rahrmann 2013-02",23685747,"Not Determined",13:103818787-103920514,C,"Nervous System Cancer",16
+Erbb2ip,59079,13,41282,ERBIN,55914,Erbin,365661,,,erbb2ip,566811,,,No,No,"Takeda 2015-01",25559195,"Not Determined",13:103829762-103879292,A,"Colorectal Cancer",16
+Erbb2ip,59079,13,41282,ERBIN,55914,Erbin,365661,,,erbb2ip,566811,,,No,No,"Takeda 2015-02",25559195,"Not Determined",13:103816611-103897050,A,"Colorectal Cancer",16
+Erbb2ip,59079,13,41282,ERBIN,55914,Erbin,365661,,,erbb2ip,566811,,,No,No,"Takeda 2015-03",25559195,"Not Determined",13:103819105-103914213,A,"Colorectal Cancer",16
+Erbb2ip,59079,13,41282,ERBIN,55914,Erbin,365661,,,erbb2ip,566811,,,No,No,"Takeda 2016-01",27006499,Loss,13:103838127-103890675,B,"Gastric Cancer",16
+Erbb2ip,59079,13,41282,ERBIN,55914,Erbin,365661,,,erbb2ip,566811,,,No,No,"Wu 2012-01",22343890,"Not Determined",13:103818787-103920514,"Not Ranked","Nervous System Cancer",16
+Fbxo11,225055,17,11843,FBXO11,80204,Fbxo11,301674,FBXO11,41209,fbxo11b,567742,,,Yes,Yes,"Bard-Chapeau 2014-01",24316982,"Not Determined",17:87990858-88065285,C,"Liver Cancer",11
+Fbxo11,225055,17,11843,FBXO11,80204,Fbxo11,301674,FBXO11,41209,fbxo11b,567742,,,Yes,Yes,"Mann 2012-01",22421440,Loss,17:88039282-88039282,D,"Pancreatic Cancer",11
+Fbxo11,225055,17,11843,FBXO11,80204,Fbxo11,301674,FBXO11,41209,fbxo11b,567742,,,Yes,Yes,"March 2011-01",22057237,"Not Determined",17:87964571-88075174,C,"Colorectal Cancer",11
+Fbxo11,225055,17,11843,FBXO11,80204,Fbxo11,301674,FBXO11,41209,fbxo11b,567742,,,Yes,Yes,"Moriarity 2015-01",25961939,Gain,17:87990858-88065285,B,Sarcoma,11
+Fbxo11,225055,17,11843,FBXO11,80204,Fbxo11,301674,FBXO11,41209,fbxo11b,567742,,,Yes,Yes,"Perez Mancera 2012-01",22699621,"Not Determined",17:88043142-88043142,D,"Pancreatic Cancer",11
+Fbxo11,225055,17,11843,FBXO11,80204,Fbxo11,301674,FBXO11,41209,fbxo11b,567742,,,Yes,Yes,"Perez Mancera 2012-02",22699621,"Not Determined",17:88041475-88041475,D,"Pancreatic Cancer",11
+Fbxo11,225055,17,11843,FBXO11,80204,Fbxo11,301674,FBXO11,41209,fbxo11b,567742,,,Yes,Yes,"Rahrmann 2013-01",23685747,"Not Determined",17:87990859-88065291,D,"Nervous System Cancer",11
+Fbxo11,225055,17,11843,FBXO11,80204,Fbxo11,301674,FBXO11,41209,fbxo11b,567742,,,Yes,Yes,"Rahrmann 2013-02",23685747,"Not Determined",17:87990859-88065291,D,"Nervous System Cancer",11
+Fbxo11,225055,17,11843,FBXO11,80204,Fbxo11,301674,FBXO11,41209,fbxo11b,567742,,,Yes,Yes,"Takeda 2015-02",25559195,"Not Determined",17:88024594-88060880,B,"Colorectal Cancer",11
+Fbxo11,225055,17,11843,FBXO11,80204,Fbxo11,301674,FBXO11,41209,fbxo11b,567742,,,Yes,Yes,"Takeda 2015-03",25559195,"Not Determined",17:88020409-88046557,C,"Colorectal Cancer",11
+Fbxo11,225055,17,11843,FBXO11,80204,Fbxo11,301674,FBXO11,41209,fbxo11b,567742,,,Yes,Yes,"Takeda 2016-01",27006499,Loss,17:88010392-88036537,D,"Gastric Cancer",11
+Rock1,19877,18,55899,ROCK1,6093,Rock1,81762,,,rock1,100329779,,,No,No,"Bard-Chapeau 2014-01",24316982,"Not Determined",18:10064400-10181792,B,"Liver Cancer",11
+Rock1,19877,18,55899,ROCK1,6093,Rock1,81762,,,rock1,100329779,,,No,No,"Dorr 2015-01",25995385,Loss,18:10051702-10142702,B,"Lung Cancer",11
+Rock1,19877,18,55899,ROCK1,6093,Rock1,81762,,,rock1,100329779,,,No,No,"Keng 2013-01",22899566,"Not Determined",18:9997402-10158402,B,"Liver Cancer",11
+Rock1,19877,18,55899,ROCK1,6093,Rock1,81762,,,rock1,100329779,,,No,No,"Koso 2012-01",23045694,"Not Determined",18:10064401-10181792,B,"Nervous System Cancer",11
+Rock1,19877,18,55899,ROCK1,6093,Rock1,81762,,,rock1,100329779,,,No,No,"Perez Mancera 2012-01",22699621,"Not Determined",18:10160237-10160237,D,"Pancreatic Cancer",11
+Rock1,19877,18,55899,ROCK1,6093,Rock1,81762,,,rock1,100329779,,,No,No,"Perez Mancera 2012-02",22699621,"Not Determined",18:10160209-10160209,C,"Pancreatic Cancer",11
+Rock1,19877,18,55899,ROCK1,6093,Rock1,81762,,,rock1,100329779,,,No,No,"Perna 2015-01",25624498,"Not Determined",18:10112608-10112608,D,"Skin Cancer",11
+Rock1,19877,18,55899,ROCK1,6093,Rock1,81762,,,rock1,100329779,,,No,No,"Rahrmann 2013-01",23685747,"Not Determined",18:10064401-10181792,C,"Nervous System Cancer",11
+Rock1,19877,18,55899,ROCK1,6093,Rock1,81762,,,rock1,100329779,,,No,No,"Rahrmann 2013-02",23685747,"Not Determined",18:10064401-10181792,B,"Nervous System Cancer",11
+Rock1,19877,18,55899,ROCK1,6093,Rock1,81762,,,rock1,100329779,,,No,No,"Takeda 2015-03",25559195,"Not Determined",18:10158366-10161269,D,"Colorectal Cancer",11
+Rock1,19877,18,55899,ROCK1,6093,Rock1,81762,,,rock1,100329779,,,No,No,"Takeda 2016-01",27006499,Loss,18:10062337-10129181,A,"Gastric Cancer",11
+Ube2d2a,56550,18,2506,UBE2D2,7322,Ube2d2,641452,eff,41785,ube2d2,393934,,852376,Yes,No,"Bard-Chapeau 2014-01",24316982,"Not Determined",18:35771558-35807171,A,"Liver Cancer",8
+Ube2d2a,56550,18,2506,UBE2D2,7322,Ube2d2,641452,eff,41785,ube2d2,393934,,852376,Yes,No,"Moriarity 2015-02",25961939,Loss,18:35771559-35807172,D,Sarcoma,8
+Ube2d2a,56550,18,2506,UBE2D2,7322,Ube2d2,641452,eff,41785,ube2d2,393934,,852376,Yes,No,"Moriarity 2015-03",25961939,Gain,18:35771559-35807172,D,Sarcoma,8
+Ube2d2a,56550,18,2506,UBE2D2,7322,Ube2d2,641452,eff,41785,ube2d2,393934,,852376,Yes,No,"Perez Mancera 2012-01",22699621,"Not Determined",18:35791020-35791020,D,"Pancreatic Cancer",8
+Ube2d2a,56550,18,2506,UBE2D2,7322,Ube2d2,641452,eff,41785,ube2d2,393934,,852376,Yes,No,"Rahrmann 2013-02",23685747,"Not Determined",18:35771559-35807172,D,"Nervous System Cancer",8
+Ube2d2a,56550,18,2506,UBE2D2,7322,Ube2d2,641452,eff,41785,ube2d2,393934,,852376,Yes,No,"Takeda 2015-01",25559195,"Not Determined",18:35786887-35798494,D,"Colorectal Cancer",8
+Ube2d2a,56550,18,2506,UBE2D2,7322,Ube2d2,641452,eff,41785,ube2d2,393934,,852376,Yes,No,"Takeda 2015-02",25559195,"Not Determined",18:35773048-35812240,A,"Colorectal Cancer",8
+Ube2d2a,56550,18,2506,UBE2D2,7322,Ube2d2,641452,eff,41785,ube2d2,393934,,852376,Yes,No,"Takeda 2015-03",25559195,"Not Determined",18:35770391-35809578,A,"Colorectal Cancer",8
+Sin3a,20466,9,32124,SIN3A,25942,Sin3a,363067,Sin3A,36382,,,,,Yes,No,"Bard-Chapeau 2014-01",24316982,"Not Determined",9:57072039-57128368,B,"Liver Cancer",7
+Sin3a,20466,9,32124,SIN3A,25942,Sin3a,363067,Sin3A,36382,,,,,Yes,No,"Been 2014-01",24827933,Gain,9:57093200-57113900,B,"Blood Cancer",7
+Sin3a,20466,9,32124,SIN3A,25942,Sin3a,363067,Sin3A,36382,,,,,Yes,No,"Berquam Vrieze 2011-03",21828136,"Not Determined",9:57059517-57110353,D,"Blood Cancer",7
+Sin3a,20466,9,32124,SIN3A,25942,Sin3a,363067,Sin3A,36382,,,,,Yes,No,"March 2011-01",22057237,"Not Determined",9:57054351-57139333,B,"Colorectal Cancer",7
+Sin3a,20466,9,32124,SIN3A,25942,Sin3a,363067,Sin3A,36382,,,,,Yes,No,"Perez Mancera 2012-01",22699621,"Not Determined",9:57081356-57081356,C,"Pancreatic Cancer",7
+Sin3a,20466,9,32124,SIN3A,25942,Sin3a,363067,Sin3A,36382,,,,,Yes,No,"Perez Mancera 2012-02",22699621,"Not Determined",9:57082893-57082893,D,"Pancreatic Cancer",7
+Sin3a,20466,9,32124,SIN3A,25942,Sin3a,363067,Sin3A,36382,,,,,Yes,No,"Takeda 2015-03",25559195,"Not Determined",9:57071626-57100876,B,"Colorectal Cancer",7
+Ep400,75560,5,38779,EP400,57634,Ep400,304569,,,ep400,562355,,,Yes,No,"Bard-Chapeau 2014-01",24316982,"Not Determined",5:110664372-110770717,C,"Liver Cancer",6
+Ep400,75560,5,38779,EP400,57634,Ep400,304569,,,ep400,562355,,,Yes,No,"March 2011-01",22057237,"Not Determined",5:110687948-110796814,C,"Colorectal Cancer",6
+Ep400,75560,5,38779,EP400,57634,Ep400,304569,,,ep400,562355,,,Yes,No,"Takeda 2015-01",25559195,"Not Determined",5:110731997-110734940,D,"Colorectal Cancer",6
+Ep400,75560,5,38779,EP400,57634,Ep400,304569,,,ep400,562355,,,Yes,No,"Takeda 2015-02",25559195,"Not Determined",5:110702560-110736882,D,"Colorectal Cancer",6
+Ep400,75560,5,38779,EP400,57634,Ep400,304569,,,ep400,562355,,,Yes,No,"Takeda 2015-03",25559195,"Not Determined",5:110707860-110742081,D,"Colorectal Cancer",6
+Ep400,75560,5,38779,EP400,57634,Ep400,304569,,,ep400,562355,,,Yes,No,"Takeda 2016-01",27006499,Loss,5:110695576-110744525,C,"Gastric Cancer",6
+Arid4a,238247,12,11303,ARID4A,5926,Arid4a,314205,,,,,,,Yes,No,"Bard-Chapeau 2014-01",24316982,"Not Determined",12:71015966-71099351,C,"Liver Cancer",5
+Arid4a,238247,12,11303,ARID4A,5926,Arid4a,314205,,,,,,,Yes,No,"March 2011-01",22057237,"Not Determined",12:-,"Not Ranked","Colorectal Cancer",5
+Arid4a,238247,12,11303,ARID4A,5926,Arid4a,314205,,,,,,,Yes,No,"Rahrmann 2013-01",23685747,"Not Determined",12:71015990-71098592,D,"Nervous System Cancer",5
+Arid4a,238247,12,11303,ARID4A,5926,Arid4a,314205,,,,,,,Yes,No,"Wong 2014-01",24316979,"Not Determined",12:71016295-71016295,C,"Blood Cancer",5
+Arid4a,238247,12,11303,ARID4A,5926,Arid4a,314205,,,,,,,Yes,No,"Wu 2012-01",22343890,"Not Determined",12:71015990-71098592,"Not Ranked","Nervous System Cancer",5
+Cbx5,12419,15,7257,CBX5,23468,Cbx5,300266,,,cbx5,563396,,,Yes,No,"Bard-Chapeau 2014-01",24316982,"Not Determined",15:103191545-103239816,D,"Liver Cancer",5
+Cbx5,12419,15,7257,CBX5,23468,Cbx5,300266,,,cbx5,563396,,,Yes,No,"Friedel 2013-01",23940809,"Not Determined",15:103191544-103239816,"Not Ranked",Mixed,5
+Cbx5,12419,15,7257,CBX5,23468,Cbx5,300266,,,cbx5,563396,,,Yes,No,"March 2011-01",22057237,"Not Determined",15:-,"Not Ranked","Colorectal Cancer",5
+Cbx5,12419,15,7257,CBX5,23468,Cbx5,300266,,,cbx5,563396,,,Yes,No,"Perez Mancera 2012-01",22699621,"Not Determined",15:103239589-103239589,C,"Pancreatic Cancer",5
+Cbx5,12419,15,7257,CBX5,23468,Cbx5,300266,,,cbx5,563396,,,Yes,No,"Takeda 2015-02",25559195,"Not Determined",15:103204411-103230662,D,"Colorectal Cancer",5
+Med15,94112,16,,MED15,51586,,,,,,,,,Yes,No,"Bard-Chapeau 2014-01",24316982,"Not Determined",16:17651220-17722930,C,"Liver Cancer",5
+Med15,94112,16,,MED15,51586,,,,,,,,,Yes,No,"Perez Mancera 2012-01",22699621,"Not Determined",16:17696939-17696939,D,"Pancreatic Cancer",5
+Med15,94112,16,,MED15,51586,,,,,,,,,Yes,No,"Takeda 2015-02",25559195,"Not Determined",16:17677346-17706348,C,"Colorectal Cancer",5
+Med15,94112,16,,MED15,51586,,,,,,,,,Yes,No,"Takeda 2015-03",25559195,"Not Determined",16:17670493-17711139,C,"Colorectal Cancer",5
+Med15,94112,16,,MED15,51586,,,,,,,,,Yes,No,"Takeda 2016-01",27006499,Loss,16:17663318-17699387,C,"Gastric Cancer",5
+Lin54,231506,5,18212,LIN54,132660,Lin54,305171,,,lin54,560688,,,Yes,No,"March 2011-01",22057237,"Not Determined",5:100471854-100507290,B,"Colorectal Cancer",4
+Lin54,231506,5,18212,LIN54,132660,Lin54,305171,,,lin54,560688,,,Yes,No,"Quintana 2012-01",22832494,"Not Determined",5:100441918-100500639,D,"Skin Cancer",4
+Lin54,231506,5,18212,LIN54,132660,Lin54,305171,,,lin54,560688,,,Yes,No,"Rad 2010-01",20947725,"Not Determined",5:100538624-100579664,"Not Ranked","Blood Cancer",4
+Lin54,231506,5,18212,LIN54,132660,Lin54,305171,,,lin54,560688,,,Yes,No,"Takeda 2015-03",25559195,"Not Determined",5:100433043-100484426,D,"Colorectal Cancer",4
+Siah1a,20437,8,20654,SIAH1,6477,Siah1,140941,sina,39884,siah1,80955,,,Yes,No,"Bard-Chapeau 2014-01",24316982,"Not Determined",8:86723939-86746006,D,"Liver Cancer",4
+Siah1a,20437,8,20654,SIAH1,6477,Siah1,140941,sina,39884,siah1,80955,,,Yes,No,"Perez Mancera 2012-01",22699621,"Not Determined",8:86733089-86733089,C,"Pancreatic Cancer",4
+Siah1a,20437,8,20654,SIAH1,6477,Siah1,140941,sina,39884,siah1,80955,,,Yes,No,"Perez Mancera 2012-02",22699621,"Not Determined",8:86735855-86735855,C,"Pancreatic Cancer",4
+Siah1a,20437,8,20654,SIAH1,6477,Siah1,140941,sina,39884,siah1,80955,,,Yes,No,"Takeda 2015-03",25559195,"Not Determined",8:86731064-86739856,D,"Colorectal Cancer",4
+Cdc27,217232,11,960,CDC27,996,Cdc27,360643,Cdc27,38798,cdc27,30450,,,Yes,No,"Bard-Chapeau 2014-01",24316982,"Not Determined",11:104502528-104550620,C,"Liver Cancer",3
+Cdc27,217232,11,960,CDC27,996,Cdc27,360643,Cdc27,38798,cdc27,30450,,,Yes,No,"March 2011-01",22057237,"Not Determined",11:104349614-104528333,A,"Colorectal Cancer",3
+Cdc27,217232,11,960,CDC27,996,Cdc27,360643,Cdc27,38798,cdc27,30450,,,Yes,No,"Rahrmann 2013-03",23685747,Loss,11:104502745-104550620,B,"Nervous System Cancer",3
+Hnrnph3,432467,10,11012,HNRNPH3,3189,"Hnrnph3 LOC100910795","361838 100910795",,,,,,,Yes,No,"Bard-Chapeau 2014-01",24316982,"Not Determined",10:63014663-63023849,D,"Liver Cancer",3
+Hnrnph3,432467,10,11012,HNRNPH3,3189,"Hnrnph3 LOC100910795","361838 100910795",,,,,,,Yes,No,"Perez Mancera 2012-01",22699621,"Not Determined",10:63017138-63017138,D,"Pancreatic Cancer",3
+Hnrnph3,432467,10,11012,HNRNPH3,3189,"Hnrnph3 LOC100910795","361838 100910795",,,,,,,Yes,No,"Perez Mancera 2012-02",22699621,"Not Determined",10:63018299-63018299,D,"Pancreatic Cancer",3
+Klc1,16593,12,4056,KLC1,3831,Klc1,171041,Klc,39445,klc1a,393928,,,Yes,No,"March 2011-01",22057237,"Not Determined",12:-,"Not Ranked","Colorectal Cancer",3
+Klc1,16593,12,4056,KLC1,3831,Klc1,171041,Klc,39445,klc1a,393928,,,Yes,No,"Perez Mancera 2012-01",22699621,"Not Determined",12:111797555-111797555,D,"Pancreatic Cancer",3
+Klc1,16593,12,4056,KLC1,3831,Klc1,171041,Klc,39445,klc1a,393928,,,Yes,No,"Takeda 2015-03",25559195,"Not Determined",12:111771826-111787910,D,"Colorectal Cancer",3
+Myl12b,67938,17,23407,MYL12A,10627,Myl12b,50685,,,myl12.1,326719,,,Yes,No,"Bard-Chapeau 2014-01",24316982,"Not Determined",17:70973962-70990516,D,"Liver Cancer",3
+Myl12b,67938,17,23407,MYL12A,10627,Myl12b,50685,,,myl12.1,326719,,,Yes,No,"Rad 2015-01",25485836,"Not Determined",17:70983877-71003877,D,"Pancreatic Cancer",3
+Myl12b,67938,17,23407,MYL12A,10627,Myl12b,50685,,,myl12.1,326719,,,Yes,No,"Van der Weyden 2013-02",22370638,"Not Determined",17:-,"Not Ranked","Blood Cancer",3
+Rbbp7,245688,X,55702,RBBP7,5931,Rbbp7,83712,,,rbb4l,322129,,,Yes,No,"Bard-Chapeau 2014-01",24316982,"Not Determined",X:162760371-162779090,D,"Liver Cancer",3
+Rbbp7,245688,X,55702,RBBP7,5931,Rbbp7,83712,,,rbb4l,322129,,,Yes,No,"March 2011-01",22057237,"Not Determined",X:-,"Not Ranked","Colorectal Cancer",3
+Rbbp7,245688,X,55702,RBBP7,5931,Rbbp7,83712,,,rbb4l,322129,,,Yes,No,"Takeda 2015-02",25559195,"Not Determined",X:162766569-162776792,D,"Colorectal Cancer",3
+Ccnk,12454,12,14748,CCNK,8812,Ccnk,500715,,,ccnk,569432,,,Yes,No,"Bard-Chapeau 2014-01",24316982,"Not Determined",12:108179737-108203359,C,"Liver Cancer",2
+Ccnk,12454,12,14748,CCNK,8812,Ccnk,500715,,,ccnk,569432,,,Yes,No,"March 2011-01",22057237,"Not Determined",12:108154869-108254413,D,"Colorectal Cancer",2
+Itgb1bp2,26549,X,22708,ITGB1BP2,26548,Itgb1bp2,317258,,,,,,,Yes,No,"Bard-Chapeau 2014-01",24316982,"Not Determined",X:101449108-101453541,D,"Liver Cancer",2
+Itgb1bp2,26549,X,22708,ITGB1BP2,26548,Itgb1bp2,317258,,,,,,,Yes,No,"March 2011-01",22057237,"Not Determined",X:-,"Not Ranked","Colorectal Cancer",2
+Rbbp4,19646,4,21153,RBBP4,5928,Rbbp4,313048,Caf1-55,41836,rbbp4,321726,,,Yes,No,"Bard-Chapeau 2014-01",24316982,"Not Determined",4:129307099-129335370,D,"Liver Cancer",2
+Rbbp4,19646,4,21153,RBBP4,5928,Rbbp4,313048,Caf1-55,41836,rbbp4,321726,,,Yes,No,"March 2011-01",22057237,"Not Determined",4:-,"Not Ranked","Colorectal Cancer",2
+Rpl24,68193,16,763,RPL24,6152,Rpl24,64307,RpL24,34754,rpl24,192301,,"853051 852852",Yes,No,"Bard-Chapeau 2014-01",24316982,"Not Determined",16:55966274-55971437,D,"Liver Cancer",2
+Rpl24,68193,16,763,RPL24,6152,Rpl24,64307,RpL24,34754,rpl24,192301,,"853051 852852",Yes,No,"March 2011-01",22057237,"Not Determined",16:-,"Not Ranked","Colorectal Cancer",2
+Spry1,24063,3,4266,SPRY1,10252,,,,,spry1,798229,,,Yes,No,"Rad 2010-01",20947725,"Not Determined",3:37706294-37723838,"Not Ranked","Blood Cancer",2
+Spry1,24063,3,4266,SPRY1,10252,,,,,spry1,798229,,,Yes,No,"Van der Weyden 2013-02",22370638,"Not Determined",3:-,"Not Ranked","Blood Cancer",2
+Suds3,71954,5,15906,SUDS3,64426,Suds3,360819,CG14220,32954,suds3,445099,,,Yes,No,"Bard-Chapeau 2014-01",24316982,"Not Determined",5:117091679-117115993,D,"Liver Cancer",2
+Suds3,71954,5,15906,SUDS3,64426,Suds3,360819,CG14220,32954,suds3,445099,,,Yes,No,"March 2011-01",22057237,"Not Determined",5:-,"Not Ranked","Colorectal Cancer",2
+Bmp8b,12164,4,130625,BMP8B,656,Bmp8b,679119,,,,,,,Yes,No,"March 2011-01",22057237,"Not Determined",4:-,"Not Ranked","Colorectal Cancer",1
+Cblc,80794,7,8108,CBLC,23624,Cblc,292699,,,,,,,Yes,Yes,"March 2011-01",22057237,"Not Determined",7:-,"Not Ranked","Colorectal Cancer",1
+Cdc26,66440,4,16410,CDC26,246184,Cdc26,366381,,,cdc26,445501,,,Yes,No,"March 2011-01",22057237,"Not Determined",4:-,"Not Ranked","Colorectal Cancer",1
+Cdk5rap3,80280,11,12718,CDK5RAP3,80279,Cdk5rap3,80278,CG30291,246534,cdk5rap3,415195,,,Yes,No,"March 2011-01",22057237,"Not Determined",11:-,"Not Ranked","Colorectal Cancer",1
+Copg1,54161,6,56745,COPG1,22820,Copg1,297428,,,,,,,No,No,"March 2011-01",22057237,"Not Determined",6:-,"Not Ranked","Colorectal Cancer",1
+Copz2,56358,11,69215,COPZ2,51226,Copz2,360611,,,copz2,57969,,,No,No,"March 2011-01",22057237,"Not Determined",11:-,"Not Ranked","Colorectal Cancer",1
+E2f2,242705,4,48264,E2F2,1870,E2f2,684111,,,si:ch211-160f23.5,568846,,,Yes,No,"March 2011-01",22057237,"Not Determined",4:-,"Not Ranked","Colorectal Cancer",1
+Eif3c,56347,7,2781,EIF3C,8663,Eif3c,293484,eIF3-S8,37005,eif3c,334234,,855357,Yes,No,"Bard-Chapeau 2014-01",24316982,"Not Determined",7:126546910-126566366,D,"Liver Cancer",1
+Eif3d,55944,15,2782,EIF3D,8664,Eif3d,362952,eIF-3p66,42789,eif3d,336498,,,Yes,No,"March 2011-01",22057237,"Not Determined",15:-,"Not Ranked","Colorectal Cancer",1
+Eif3k,73830,7,8292,EIF3K,27335,Eif3k,292762,CG10306,37475,eif3k,550245,,,Yes,No,"March 2011-01",22057237,"Not Determined",7:-,"Not Ranked","Colorectal Cancer",1
+Eif3l,223691,15,9380,EIF3L,51386,,,CG5642,39386,eif3s6ip,406402,,,Yes,No,"Perez Mancera 2012-01",22699621,"Not Determined",15:79086914-79086914,C,"Pancreatic Cancer",1
+Eif3m,98221,2,4639,EIF3M,10480,Eif3m,295975,Tango7,36565,eif3m,334626,,,Yes,No,"Bard-Chapeau 2014-01",24316982,"Not Determined",2:105003375-105003375,D,"Liver Cancer",1
+Fbxo31,76454,8,11684,FBXO31,79791,Fbxo31,498959,,,fbxo31,555190,,,Yes,No,"March 2011-01",22057237,"Not Determined",8:-,"Not Ranked","Colorectal Cancer",1
+Gtf2h3,209357,5,1160,GTF2H3,2967,Gtf2h3,288651,Tfb4,33294,"gtf2h3-2 gtf2h3","100151595 436837",,856169,Yes,No,"March 2011-01",22057237,"Not Determined",5:-,"Not Ranked","Colorectal Cancer",1
+Kpna6,16650,4,22472,KPNA6,23633,Kpna6,362607,Kap-alpha1,40160,kpna6,100149852,,,No,No,"March 2011-01",22057237,"Not Determined",4:-,"Not Ranked","Colorectal Cancer",1
+Mnat1,17420,12,1821,MNAT1,4331,Mnat1,266713,Mat1,36130,mnat1,450080,,852071,Yes,No,"Koso 2012-01",23045694,"Not Determined",12:73123717-73273988,B,"Nervous System Cancer",1
+Mybbp1a,18432,11,40954,MYBBP1A,10514,Mybbp1a,60571,,,,,,,Yes,No,"March 2011-01",22057237,"Not Determined",11:-,"Not Ranked","Colorectal Cancer",1
+Nfyb,18045,10,38149,NFYB,4801,Nfyb,25336,Nf-YB,35261,"nfybb nfyba","503744 550227",,852260,Yes,No,"Bard-Chapeau 2014-01",24316982,"Not Determined",10:82748499-82748499,D,"Liver Cancer",1
+Pcgf6,71041,19,12378,PCGF6,84108,Pcgf6,309457,,,pcgf6,555238,,,Yes,No,"Van der Weyden 2013-01",22370638,"Not Determined",19:-,"Not Ranked","Blood Cancer",1
+Plxnb1,235611,9,130508,PLXNB1,5364,Plxnb1,316009,PlexB,43766,"plxnb1b plxnb1a","570222 561012",,,Yes,No,"Perez Mancera 2012-01",22699621,"Not Determined",9:109101464-109101464,D,"Pancreatic Cancer",1
+Rnf19a,30945,15,8501,RNF19A,25897,Rnf19a,362900,,,rnf19a,557995,,,Yes,No,"Bard-Chapeau 2014-01",24316982,"Not Determined",15:36239933-36283147,A,"Liver Cancer",1
+Rps16,20055,7,794,RPS16,6217,Rps16,140655,RpS16,37580,rps16,767765,,"855174 851476",Yes,No,"Takeda 2016-01",27006499,"Not Determined",7:28350652-28353155,D,"Gastric Cancer",1
+Rps9,76846,7,68145,RPS9,6203,Rps9,81772,RpS9,39108,rps9,114420,,"856024 852487",Yes,No,"Bard-Chapeau 2014-01",24316982,"Not Determined",7:3704040-3706897,D,"Liver Cancer",1
+Senp3,80886,11,9236,SENP3,26168,Senp3,303245,,,,,,,No,No,"March 2011-01",22057237,"Not Determined",11:-,"Not Ranked","Colorectal Cancer",1
+Setd7,73251,3,12741,SETD7,80854,Setd7,689954,,,setd7,436729,,,Yes,No,"March 2011-01",22057237,"Not Determined",3:-,"Not Ranked","Colorectal Cancer",1
+Traf2,22030,2,22520,TRAF2,7186,Traf2,311786,,,"traf2a LOC100005446","564295 100005446",,,Yes,No,"Bard-Chapeau 2014-01",24316982,"Not Determined",2:25517981-25546894,D,"Liver Cancer",1
+Ubash3b,72828,9,13152,UBASH3B,84959,Ubash3b,315579,CG13604,42840,"ubash3ba ubash3bb","558545 569827",,,Yes,No,"Wu 2012-01",22343890,"Not Determined",9:41011098-41161697,"Not Ranked","Nervous System Cancer",1
+Xrcc6,14375,15,37483,XRCC6,2547,Xrcc6,25019,Irbp,117419,"LOC100536337 xrcc6","100536337 334488",,855328,Yes,No,"March 2011-01",22057237,"Not Determined",15:-,"Not Ranked","Colorectal Cancer",1
+
