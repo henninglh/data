@@ -2,14 +2,23 @@
 
 import urllib
 import xml.etree.ElementTree as ET
-import sys
 
-gene = sys.argv[1].strip()
-url = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=cancer+' + gene
-site = urllib.urlopen(url)
-xml_string = site.read()
-site.close()
-root = ET.fromstring(xml_string)
-count = root[0].text
-with open('genes/' + gene + '.txt', 'w') as gene_file:
-    gene_file.write('{}\n'.format(count))
+def write_pubmed_count(gene):
+    term = 'term=human[orgn]+AND+cancer+' + gene
+    query = 'entrez/eutils/esearch.fcgi?db=pubmed&' + term
+    url = 'https://eutils.ncbi.nlm.nih.gov/' + query
+    site = urllib.urlopen(url)
+    xml_string = site.read()
+    site.close()
+    root = ET.fromstring(xml_string)
+    count = root[0].text
+    string = '{}\t{}'.format(gene, count)
+    print string
+
+if __name__ == '__main__':
+    with open('genes.txt', 'r') as genes:
+        print 'Gene\tCount'
+        for gene in genes.readlines():
+            write_pubmed_count(gene.strip())
+else:
+    print 'This module is to be run standalone!'
