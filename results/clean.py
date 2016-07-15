@@ -3,7 +3,6 @@ import pandas as pd
 import sys
 
 unclean = sys.argv[1].strip()
-clustering = sys.argv[2].strip() # clustering algorithm
 ranking = sys.argv[3].strip() # ranking algorithm
 scorings = sys.argv[4:]
 clean_filename = unclean[:-4] + '_clean.tsv'

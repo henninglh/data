@@ -3,7 +3,9 @@ import sys
 import operator
 from collections import OrderedDict
 
-print 'Usage: <clean-file> tests/<genes-file>'
+if len(sys.argv) < 3:
+    print 'Usage: <clean-file> tests/<genes-file>'
+    exit(0)
 
 clean_filename = sys.argv[1].strip()
 genes_filename = sys.argv[2].strip()
