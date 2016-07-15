@@ -4,7 +4,7 @@ import urllib
 import xml.etree.ElementTree as ET
 
 def write_pubmed_count(gene):
-    term = 'term=human[orgn]+AND+cancer+' + gene
+    term = 'term=cancer+AND+' + gene
     query = 'entrez/eutils/esearch.fcgi?db=pubmed&' + term
     url = 'https://eutils.ncbi.nlm.nih.gov/' + query
     site = urllib.urlopen(url)
