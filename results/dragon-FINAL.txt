@@ -1,1 +1,1 @@
-Final result from <dragon> is "0.662790697674"
+Final result from <dragon> is "0.7564539698"
