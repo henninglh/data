@@ -19,5 +19,5 @@ for score in scorings:
 #cols.remove('Unnamed: 0')
 table.fillna(value=0)
 table = table[table[ranking] != -1]
-table.to_csv(clean_filename, na_rep=-1, index=False, sep='\t',
+table.to_csv(clean_filename, na_rep=0.0, index=False, sep='\t',
         columns=list(cols))
