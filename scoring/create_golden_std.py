@@ -12,14 +12,14 @@ with open('disgen_clean.tsv', 'r') as disgen,\
 
     for line in disgen.readlines():
         gene, score = line.split('\t')
-        markers[gene] = float(0.5)
+        markers[gene] = float(0.25)
 
     for line in dragon.readlines():
         gene = line.strip()
         if gene in markers:
-            markers[gene] += float(0.5)
+            markers[gene] += float(0.25)
         else:
-            markers[gene] = float(0.5)
+            markers[gene] = float(0.25)
 
     for marker in markers:
         golden_standard.write('{}\t{}\n'.format(marker, markers[marker]))
