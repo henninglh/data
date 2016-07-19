@@ -26,8 +26,6 @@ with open('disgen_clean.tsv', 'r') as disgen,\
         gene = line.strip()
         if gene not in markers:
             markers[gene] = sane_max
-        else:
-            markers[gene] = minimum
 
     for marker in markers:
         golden_standard.write('{}\t{}\n'.format(marker, markers[marker]))
