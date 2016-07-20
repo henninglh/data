@@ -3,7 +3,7 @@
 import numpy.random as r
 
 with open('golden_standard.tsv', 'r') as golden,\
-        open('golden_standard_cv.tsv', 'w') as cv,\
+        open('golden_standard_cv_corrected.tsv', 'w') as cv,\
         open('cross_validation.txt', 'w') as cross_validation:
 
     golden.readline()

@@ -8,7 +8,8 @@ with open('clusters.tsv', 'r') as clean,\
 
     clean.readline()
     cross_validation.readline()
-    clean_genes = [line for line in clean.readlines()]
+    clean_genes = filter(lambda x: float(x.split('\t')[1].strip()) > 0.0, [line for line in
+        clean.readlines()])
     cross_val_genes = set([line.strip() for line in cross_validation.readlines()]) 
     hits = 0
 
