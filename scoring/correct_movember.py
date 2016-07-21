@@ -1,20 +1,19 @@
 #!/usr/bin/env python
 
-with open('golden_standard.tsv', 'r') as golden,\
+with open('putative_prognostic_prostate_markers.csv', 'r') as movember,\
         open('../network/mitab_lite_109276_final.txt', 'r') as network,\
-        open('golden_standard_corrected.tsv', 'w') as corrected:
+        open('movember_corrected.txt', 'w') as corrected:
 
-    golden.readline()
+    movember.readline()
     network.readline()
     network_genes = set()
-
-    corrected.write('gene_names\tscore\n')
+    corrected.write('gene_names\n')
 
     for line in network.readlines():
         gene1, gene2 = line.split('\t')
         network_genes.add(gene1.strip())
         network_genes.add(gene2.strip())
-
-    for line in golden.readlines():
-        if line.split('\t')[0].strip() in network_genes:
+    
+    for line in movember.readlines():
+        if line.strip() in network_genes:
             corrected.write(line)
