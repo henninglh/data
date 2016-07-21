@@ -14,6 +14,8 @@ with open('mcl-1.8_prwp_a-8_i-1000_links-43706_mean_clean.tsv', 'r') as clean,\
         cluster = int(float(info[0].strip()))
         gene = info[1].strip()
         score = float(info[2].strip())
+        node_score = float(info[3].strip())
+        gene += ':{}'.format(node_score)
 
         if cluster not in clusters:
             clusters[cluster] = {'genes': set(), 'score': 0.0}

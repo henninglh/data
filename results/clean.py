@@ -15,9 +15,8 @@ cols.remove('shared name')
 cols.remove('selected')
 for score in scorings:
     cols.remove(score.strip())
-#cols.remove('score')  # make this more dynamic?
-#cols.remove('Unnamed: 0')
 table.fillna(value=0)
-table = table[table[ranking] != -1]
+table = table.sort_values(by=['PRWP', '__mclCluster', 'name'], ascending=[False,
+    True, True])
 table.to_csv(clean_filename, na_rep=0.0, index=False, sep='\t',
         columns=list(cols))

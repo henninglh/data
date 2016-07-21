@@ -17,7 +17,7 @@ with open('clusters.tsv', 'r') as clean,\
 
     for line in clean_genes:
         info = line.split('\t')
-        genes = set(info[2].split(','))
+        genes = set([i.split(':')[0].strip() for i in info[2].split(',')])
         intersect = list(cross_val_genes.intersection(genes))
         map(lambda x: identified_genes.add(x), intersect)
         hits += len(intersect)
@@ -31,4 +31,5 @@ with open('clusters.tsv', 'r') as clean,\
     # Percentage of hits
     print 'total possible matches:', len(cross_val_genes)
     print 'matches:', hits
+    print 'misses:', len(cross_val_genes) - hits
     print 'percentage:',float(hits) / float(len(cross_val_genes))

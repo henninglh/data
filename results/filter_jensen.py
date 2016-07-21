@@ -4,7 +4,7 @@ import operator
 
 no_gene = '__NO_GENE__'
 
-with open('cancerous.tsv', 'r') as diseases,\
+with open('jensen_cancerous.tsv', 'r') as diseases,\
         open('genes.txt', 'r') as clean_file,\
         open('z-values.tsv', 'w') as z_vals,\
         open('credibility.tsv', 'w') as creds,\
