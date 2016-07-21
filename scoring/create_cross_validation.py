@@ -46,7 +46,6 @@ with open('golden_standard_corrected.tsv', 'r') as golden,\
         if new_removal not in removals:
             removals.add(new_removal)
             removed += 1
-    print removals
 
     for idx in xrange(border):
         gene_only = standard[idx].split('\t')[0].strip()
