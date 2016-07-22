@@ -27,9 +27,13 @@ with open('golden_standard_corrected.tsv', 'r') as golden,\
     network.readline()
     for line in network.readlines():
         info = line.split('\t')
+        cluster = float(info[0].strip())
         genes = info[2].split(',')
         scores = map(lambda x: [x.split(':')[0], float(x.split(':')[1])], genes)
         weighted_genes = filter(lambda gene: gene[1] != 0.0, scores)
+        if cluster == 0:
+            map(lambda x: no_removal.add(x[0]), weighted_genes)
+            continue
         if len(weighted_genes) == 1:
             no_removal.add(weighted_genes[0][0])
 
