@@ -11,8 +11,9 @@ with open('clusters.tsv', 'r') as clean,\
     cross_validation.readline()
     matched.write('gene_names\n')
     clean_genes = filter(lambda x: float(x.split('\t')[1]) > 0.0,
-            [line for line in clean.readlines()]).append(first_zero(
-    cross_val_genes = set([line.strip() for line in cross_validation.readlines()]) 
+            [line for line in clean.readlines()])
+    cross_val_genes = set([line.strip() for line in
+        cross_validation.readlines()])
     identified_genes = set()
     hits = 0
 
