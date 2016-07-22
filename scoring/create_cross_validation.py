@@ -3,18 +3,18 @@
 import numpy.random as r
 
 def create_removal(no_removal, border, standard):
-    remove = no_removal.pop()
-    no_removal.add(remove)
+    remove_gene = no_removal.pop()  # To start the while loop
+    no_removal.add(remove_gene)  # To start the while loop
     new_idx = ''  # start as string!
 
-    while remove in no_removal:
+    while remove_gene in no_removal:
         new_idx = int(r.random_integers(0, border - 1, 1))
-        remove = standard[new_idx].split('\t')[0].strip()
+        remove_gene = standard[new_idx].split('\t')[0].strip()
 
     return new_idx
 
 with open('golden_standard_corrected.tsv', 'r') as golden,\
-        open('../results/clusters.tsv', 'r') as network,\
+        open('../results/clusters_full.tsv', 'r') as network,\
         open('golden_standard_cv.tsv', 'w') as cv,\
         open('cross_validation.txt', 'w') as cross_validation:
 
@@ -31,15 +31,10 @@ with open('golden_standard_corrected.tsv', 'r') as golden,\
         genes = info[2].split(',')
         scores = map(lambda x: [x.split(':')[0], float(x.split(':')[1])], genes)
         weighted_genes = filter(lambda gene: gene[1] != 0.0, scores)
-        if cluster == 0:
+        if cluster == 0 or len(weighted_genes) < 2:
             map(lambda x: no_removal.add(x[0]), weighted_genes)
-            continue
-        if len(weighted_genes) == 1:
-            no_removal.add(weighted_genes[0][0])
 
     standard = [line for line in golden.readlines()]
-    golden_cv = []
-
     border = len(standard)
     percentage = int(border / 10)
     removals = set()
