@@ -2,7 +2,7 @@
 
 import sys
 
-with open('clusters.tsv', 'r') as clean,\
+with open('clusters_full.tsv', 'r') as clean,\
         open('../scoring/movember_corrected.txt', 'r') as movember,\
         open('movember_matched.txt', 'w') as matched,\
         open('movember_unmatched.txt', 'w') as unmatched:
