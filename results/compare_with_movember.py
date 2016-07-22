@@ -9,7 +9,8 @@ with open('clusters.tsv', 'r') as clean,\
 
     clean.readline()
     movember.readline()
-    clean_genes = [line for line in clean.readlines()]
+    clean_genes = filter(lambda x: float(x.split('\t')[1]) > 0.000, 
+            [line for line in clean.readlines()])
     movember_genes = set([line.strip() for line in movember.readlines()]) 
     identified_genes = set()
     hits = 0
