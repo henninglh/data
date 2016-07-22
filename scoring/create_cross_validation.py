@@ -30,8 +30,8 @@ with open('golden_standard_corrected.tsv', 'r') as golden,\
         genes = info[2].split(',')
         scores = map(lambda x: [x.split(':')[0], float(x.split(':')[1])], genes)
         weighted_genes = filter(lambda gene: gene[1] != 0.0, scores)
-        if len(weighted_genes) < 2:
-            map(lambda x: no_removal.add(x[0]), weighted_genes)
+        if len(weighted_genes) == 1:
+            no_removal.add(weighted_genes[0][0])
 
     standard = [line for line in golden.readlines()]
     golden_cv = []
