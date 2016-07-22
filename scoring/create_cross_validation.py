@@ -3,15 +3,15 @@
 import numpy.random as r
 
 def create_removal(no_removal, border, standard):
-    remove_gene = no_removal.pop()  # To start the while loop
-    no_removal.add(remove_gene)  # To start the while loop
+    gene = no_removal.pop()  # To start the while loop
+    no_removal.add(gene)  # To start the while loop
     new_idx = ''  # start as string!
 
-    while remove_gene in no_removal:
+    while gene in no_removal:
         new_idx = int(r.random_integers(0, border - 1, 1))
-        remove_gene = standard[new_idx].split('\t')[0].strip()
+        gene = standard[new_idx].split('\t')[0].strip()
 
-    return new_idx
+    return new_idx, gene
 
 with open('golden_standard_corrected.tsv', 'r') as golden,\
         open('../results/clusters_full.tsv', 'r') as network,\
@@ -24,15 +24,23 @@ with open('golden_standard_corrected.tsv', 'r') as golden,\
 
     no_removal = set()
 
+    clusters = dict()
+    gene_to_cluster = dict()
+
     network.readline()
     for line in network.readlines():
         info = line.split('\t')
-        cluster = float(info[0].strip())
+        cluster = info[0].strip()
         genes = info[2].split(',')
         scores = map(lambda x: [x.split(':')[0], float(x.split(':')[1])], genes)
         weighted_genes = filter(lambda gene: gene[1] != 0.0, scores)
-        if cluster == 0 or len(weighted_genes) < 2:
+        if cluster == '0' or len(weighted_genes) < 2:
             map(lambda x: no_removal.add(x[0]), weighted_genes)
+            continue
+        clusters[cluster] = set()
+        map(lambda x: clusters[cluster].add(x[0]), weighted_genes)
+        for gene in weighted_genes:
+            gene_to_cluster[gene[0]] = cluster
 
     standard = [line for line in golden.readlines()]
     border = len(standard)
@@ -41,8 +49,9 @@ with open('golden_standard_corrected.tsv', 'r') as golden,\
     removed = 0
 
     while removed != percentage:
-        new_removal = create_removal(no_removal, border, standard)
-        if new_removal not in removals:
+        new_removal, gene = create_removal(no_removal, border, standard)
+        if new_removal not in removals and len(clusters[gene_to_cluster[gene]]) > 1:
+            clusters[gene_to_cluster[gene]].remove(gene)
             removals.add(new_removal)
             removed += 1
 
