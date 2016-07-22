@@ -5,13 +5,12 @@ import numpy.random as r
 def create_removal(no_removal, border, standard):
     gene = no_removal.pop()  # To start the while loop
     no_removal.add(gene)  # To start the while loop
-    new_idx = ''  # start as string!
 
     while gene in no_removal:
         new_idx = int(r.random_integers(0, border - 1, 1))
         gene = standard[new_idx].split('\t')[0].strip()
 
-    return new_idx, gene
+    return gene
 
 with open('golden_standard_corrected.tsv', 'r') as golden,\
         open('../results/clusters_full.tsv', 'r') as network,\
@@ -45,19 +44,23 @@ with open('golden_standard_corrected.tsv', 'r') as golden,\
     standard = [line for line in golden.readlines()]
     border = len(standard)
     percentage = int(border / 10)
-    removals = set()
+    removals = list()
     removed = 0
 
     while removed != percentage:
-        new_removal, gene = create_removal(no_removal, border, standard)
-        if new_removal not in removals and len(clusters[gene_to_cluster[gene]]) > 1:
+        gene = create_removal(no_removal, border, standard)
+
+        if len(clusters[gene_to_cluster[gene]]) > 1:
             clusters[gene_to_cluster[gene]].remove(gene)
-            removals.add(new_removal)
+            del gene_to_cluster[gene]
+            no_removal.add(gene)
+
+            removals.append(gene)
             removed += 1
 
-    for idx in xrange(border):
-        gene_only = standard[idx].split('\t')[0].strip()
-        if idx in removals:
+    for line in standard:
+        gene_only = line.split('\t')[0].strip()
+        if gene_only in removals:
             cross_validation.write('{}\n'.format(gene_only))
         else:
-            cv.write('{}'.format(standard[idx]))
+            cv.write('{}'.format(line))
