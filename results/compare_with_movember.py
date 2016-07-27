@@ -5,7 +5,8 @@ import sys
 with open('clusters_full.tsv', 'r') as clean,\
         open('../scoring/movember_corrected.txt', 'r') as movember,\
         open('movember_matched.txt', 'w') as matched,\
-        open('movember_unmatched.txt', 'w') as unmatched:
+        open('movember_unmatched.txt', 'w') as unmatched,\
+        open('distribution.tsv', 'w') as distribution:
 
     clean.readline()
     movember.readline()
@@ -14,19 +15,28 @@ with open('clusters_full.tsv', 'r') as clean,\
     movember_genes = set([line.strip() for line in movember.readlines()]) 
     identified_genes = set()
     hits = 0
+    ranks = []
 
     for line in clean_genes:
         info = line.split('\t')
-        genes = set([i.split(':')[0].strip() for i in info[2].split(',')])
-        intersect = list(movember_genes.intersection(genes))
+        candidates = set([a.split(':')[0] for a in 
+                filter(lambda x: float(x.split(':')[1].strip()) == 0.0, 
+                [i for i in info[2].split(',')])])
+        intersect = list(movember_genes.intersection(candidates))
         map(lambda x: identified_genes.add(x), intersect)
-        hits += len(movember_genes.intersection(genes))
+        hits += len(intersect)
+        ranks.append(intersect)
 
     for gene in identified_genes:
         matched.write('{}\n'.format(gene))
 
     for gene in (movember_genes - identified_genes):
         unmatched.write('{}\n'.format(gene))
+
+    rank = 1
+    for candidate in ranks:
+        distribution.write('{}\t{}\n'.format(rank, candidate))
+        rank += 1
 
     # Percentage of hits
     print 'total possible matches:', len(movember_genes)
