@@ -6,7 +6,7 @@ with open('clusters_full.tsv', 'r') as clean,\
         open('../scoring/movember_corrected.txt', 'r') as movember,\
         open('movember_matched.txt', 'w') as matched,\
         open('movember_unmatched.txt', 'w') as unmatched,\
-        open('distribution.tsv', 'w') as distribution:
+        open('movember_distribution.tsv', 'w') as distribution:
 
     clean.readline()
     movember.readline()

@@ -5,7 +5,8 @@ import sys
 with open('clusters.tsv', 'r') as clean,\
         open('../scoring/cross_validation.txt', 'r') as cross_validation,\
         open('cross_validation_matched.txt', 'w') as matched,\
-        open('cross_validation_unmatched.txt', 'w') as unmatched:
+        open('cross_validation_unmatched.txt', 'w') as unmatched,\
+        open('cv_distribution.tsv', 'w') as distribution:
 
     clean.readline()
     cross_validation.readline()
