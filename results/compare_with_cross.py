@@ -17,19 +17,29 @@ with open('clusters.tsv', 'r') as clean,\
         cross_validation.readlines()])
     identified_genes = set()
     hits = 0
+    ranks = []
 
     for line in clean_genes:
         info = line.split('\t')
         genes = set([i.split(':')[0].strip() for i in info[2].split(',')])
+        candidates = set([a.split(':')[0] for a in 
+                filter(lambda x: float(x.split(':')[1].strip()) == 0.0, 
+                [i for i in info[2].split(',')])])
         intersect = list(cross_val_genes.intersection(genes))
         map(lambda x: identified_genes.add(x), intersect)
         hits += len(intersect)
+        ranks.append(intersect)
 
     for gene in identified_genes:
         matched.write('{}\n'.format(gene))
 
     for gene in (cross_val_genes - identified_genes):
         unmatched.write('{}\n'.format(gene))
+
+    rank = 1
+    for candidate in ranks:
+        distribution.write('{}\t{}\n'.format(rank, candidate))
+        rank += 1
 
     # Percentage of hits
     print 'total possible matches:', len(cross_val_genes)
