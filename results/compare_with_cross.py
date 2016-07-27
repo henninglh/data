@@ -28,7 +28,7 @@ with open('clusters.tsv', 'r') as clean,\
         intersect = list(cross_val_genes.intersection(genes))
         map(lambda x: identified_genes.add(x), intersect)
         hits += len(intersect)
-        ranks.append(intersect)
+        ranks.append(len(intersect))
 
     for gene in identified_genes:
         matched.write('{}\n'.format(gene))
@@ -37,8 +37,8 @@ with open('clusters.tsv', 'r') as clean,\
         unmatched.write('{}\n'.format(gene))
 
     rank = 1
-    for candidate in ranks:
-        distribution.write('{}\t{}\n'.format(rank, candidate))
+    for candidates in ranks:
+        distribution.write('{}\t{}\n'.format(rank, candidates))
         rank += 1
 
     # Percentage of hits
