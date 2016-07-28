@@ -1,3 +1,4 @@
+a_alias	b_alias
 GOPC	JUN
 PTPRK	ERBB2
 PTPRK	CBL

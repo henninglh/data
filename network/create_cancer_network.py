@@ -4,7 +4,7 @@ with open('CosmicHGNC.tsv', 'r') as cosmic,\
         open('mitab_lite_109276_final.txt', 'r') as mitab,\
         open('cancer_network.txt', 'w') as cancer_network:
 
-    mitab.readline()
+    cancer_network.write(mitab.readline())
     cosmic.readline()
     cosmic_genes = set([i.split('\t')[1].strip() for i in cosmic.readlines()])
 
