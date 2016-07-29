@@ -1,5 +1,9 @@
 # Library versions
 ## Java
+- java
+    - 1.8.0\_101
+- javac
+    - 1.8.0\_101
 - JUNG
     - 2.1
 - clusterMaker2
