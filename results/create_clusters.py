@@ -2,7 +2,9 @@
 
 from collections import OrderedDict
 
-with open('mcl-1.8_prwp_a-8_i-1000_links-43706_mean_clean.tsv', 'r') as clean,\
+#with open('mcl-1.8_prwp_a-8_i-1000_links-43706_mean_clean.tsv', 'r') as clean,\
+with open('PRWP/mcl-1.8_prwp_a-3_i-30_links-43706_golden_clean.tsv', 'r') as clean,\
+#with open('MAA/mcl-1.8_maa_links-43706_golden_clean.tsv', 'r') as clean,\
         open('clusters.tsv', 'w') as cluster_file:
     clean.readline()
 
