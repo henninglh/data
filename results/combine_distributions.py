@@ -6,7 +6,9 @@ import numpy as np
 dist_files = sys.argv[1:]
 
 distributions = []
-ranks = np.zeros((10,440), dtype=np.int64)  # 440 is amount of clusters
+comparisons = 10
+clusters = 440
+ranks = np.zeros((comparisons,clusters), dtype=np.int64)
 
 for idx, dist in enumerate(dist_files):
     with open(dist.strip(), 'r') as distribution:

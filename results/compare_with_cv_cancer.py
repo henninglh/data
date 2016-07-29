@@ -6,7 +6,7 @@ with open('clusters.tsv', 'r') as clean,\
         open('../scoring/cross_validation_cancer.txt', 'r') as cross_validation,\
         open('cv_cancer_matched.txt', 'w') as matched,\
         open('cv_cancer_unmatched.txt', 'w') as unmatched,\
-        open('cv_cancerd_istribution.tsv', 'w') as distribution:
+        open('cv_cancer_distribution.tsv', 'w') as distribution:
 
     clean.readline()
     cross_validation.readline()
@@ -25,10 +25,10 @@ with open('clusters.tsv', 'r') as clean,\
         candidates = set([a.split(':')[0] for a in 
                 filter(lambda x: float(x.split(':')[1].strip()) == 0.0, 
                 [i for i in info[2].split(',')])])
-        intersect = list(cross_val_genes.intersection(genes))
+        intersect = list(cross_val_genes.intersection(candidates))
         map(lambda x: identified_genes.add(x), intersect)
         hits += len(intersect)
-        ranks.append(len(intersect))
+        ranks.append(float(len(intersect)) / float(len(genes)))
 
     for gene in identified_genes:
         matched.write('{}\n'.format(gene))
