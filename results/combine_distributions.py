@@ -4,10 +4,8 @@ import sys
 import numpy as np
 
 dist_files = sys.argv[1:]
-
-distributions = []
 comparisons = 10
-clusters = 440
+clusters = 1400
 ranks = np.zeros((comparisons,clusters), dtype=np.int64)
 
 for idx, dist in enumerate(dist_files):
