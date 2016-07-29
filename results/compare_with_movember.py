@@ -19,13 +19,14 @@ with open('clusters_full.tsv', 'r') as clean,\
 
     for line in clean_genes:
         info = line.split('\t')
+        genes = set([i.split(':')[0].strip() for i in info[2].split(',')])
         candidates = set([a.split(':')[0] for a in 
                 filter(lambda x: float(x.split(':')[1].strip()) == 0.0, 
                 [i for i in info[2].split(',')])])
         intersect = list(movember_genes.intersection(candidates))
         map(lambda x: identified_genes.add(x), intersect)
         hits += len(intersect)
-        ranks.append(intersect)
+        ranks.append(float(len(intersect)) / float(len(genes)))
 
     for gene in identified_genes:
         matched.write('{}\n'.format(gene))
