@@ -3,7 +3,7 @@
 import numpy.random as r
 import sys
 
-directory = sys.argv[1].strip()
+directory = sys.argv[1].strip() + '/'
 
 def create_removal(no_removal, border, standard):
     gene = no_removal.pop()  # To start the while loop
