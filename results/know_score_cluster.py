@@ -12,7 +12,7 @@ if is_cancer:
 
 with open('disease_know_scores.txt', 'r') as score_file,\
         open(directory + 'clusters_full' + cancer_prefix + '.tsv', 'r') as cluster_file,\
-        open('know_ranks' + cancer_prefix + '.tsv', 'w') as ranks:
+        open(directory + 'know_ranks' + cancer_prefix + '.tsv', 'w') as ranks:
 
     score_file.readline()
     cluster_file.readline()
