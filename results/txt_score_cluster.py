@@ -26,7 +26,6 @@ with open('disease_text_scores.tsv', 'r') as score_file,\
                 clusters[num] += scores[gene]
 
     sorted_clusters = sorted(clusters.items(), key=operator.itemgetter(1), reverse=True)
-    sorted_clusters = filter(lambda x: x[1] != 0.0, sorted_clusters)
     for cluster in sorted_clusters:
         ranks.write('{}\t{}\n'.format(cluster[0], cluster[1]))
 

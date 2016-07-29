@@ -22,6 +22,5 @@ with open('disease_know_scores.txt', 'r') as score_file,\
             clusters[num] += found / float(len(genes))
 
     sorted_clusters = sorted(clusters.items(), key=operator.itemgetter(1), reverse=True)
-    sorted_clusters = filter(lambda x: x[1] != 0.0, sorted_clusters)
     for cluster in sorted_clusters:
         ranks.write('{}\t{}\n'.format(cluster[0], cluster[1]))
