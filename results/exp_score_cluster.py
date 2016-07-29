@@ -30,4 +30,3 @@ with open('disease_exp_scores.tsv', 'r') as score_file,\
     sorted_clusters = filter(lambda x: x[1] != 0.0, sorted_clusters)
     for cluster in sorted_clusters:
         ranks.write('{}\t{}\n'.format(cluster[0], cluster[1]))
-
