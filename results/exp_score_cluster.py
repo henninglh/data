@@ -5,10 +5,14 @@ import operator
 import sys
 
 directory = sys.argv[1].strip() + '/'
+is_cancer = len(sys.argv) == 3
+cancer_prefix = ''
+if is_cancer:
+    cancer_prefix = '_cancer'
 
 with open('disease_exp_scores.tsv', 'r') as score_file,\
-        open(directory + 'clusters_full.tsv', 'r') as cluster_file,\
-        open('exp_ranks.tsv', 'w') as ranks:
+        open(directory + 'clusters_full' + cancer_prefix + '.tsv', 'r') as cluster_file,\
+        open('exp_ranks' + cancer_prefix + '.tsv', 'w') as ranks:
 
     score_file.readline()
     cluster_file.readline()
