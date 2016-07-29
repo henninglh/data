@@ -2,9 +2,12 @@
 
 from collections import defaultdict
 import operator
+import sys
+
+directory = sys.argv[1].strip() + '/'
 
 with open('disease_text_scores.tsv', 'r') as score_file,\
-        open('clusters_full.tsv', 'r') as cluster_file,\
+        open(directory + 'clusters_full.tsv', 'r') as cluster_file,\
         open('txt_ranks.tsv', 'w') as ranks:
 
     score_file.readline()

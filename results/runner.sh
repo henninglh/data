@@ -1,12 +1,8 @@
-#!/usr/bin/env sh
-# x is filename to run through clean.py
-# $1 is clustering algorithm abbreviation in upper case letters
-# $2 is ranking algorithm in upper case letters
+# Run create_clusters.py! has to be modified for PRWP and MAA
+./exp_score_cluster.py PRWP
+./txt_score_cluster.py PRWP
+./know_score_cluster.py PRWP
 
-for x in *.csv; do
-    ./clean.py $x $1 $2;
-done
-
-# Then run calculate.py
-# Then run diff.py
-# Then run candidate.py
+./exp_score_cluster.py MAA
+./txt_score_cluster.py MAA
+./know_score_cluster.py MAA
