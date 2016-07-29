@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
 import numpy.random as r
+import sys
+
+directory = sys.argv[1].strip()
 
 def create_removal(no_removal, border, standard):
     gene = no_removal.pop()  # To start the while loop
@@ -13,7 +16,7 @@ def create_removal(no_removal, border, standard):
     return gene
 
 with open('golden_std_cancer.tsv', 'r') as golden,\
-        open('../results/clusters_cancer.tsv', 'r') as network,\
+        open('../results/' + directory + 'clusters_full_cancer.tsv', 'r') as network,\
         open('golden_std_cv_cancer.tsv', 'w') as cv,\
         open('cross_validation_cancer.txt', 'w') as cross_validation:
 
