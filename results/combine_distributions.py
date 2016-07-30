@@ -1,11 +1,21 @@
 #!/usr/bin/env python
 
-import sys
 import numpy as np
 
-dist_files = sys.argv[1:]
+dist_files = [
+        'cv_distribution1.tsv',
+        'cv_distribution2.tsv',
+        'cv_distribution3.tsv',
+        'cv_distribution4.tsv',
+        'cv_distribution5.tsv',
+        'cv_distribution6.tsv',
+        'cv_distribution7.tsv',
+        'cv_distribution8.tsv',
+        'cv_distribution9.tsv',
+        'cv_distribution10.tsv',
+        ]
 comparisons = 10
-clusters = 1400
+clusters = 1340
 ranks = np.zeros((comparisons,clusters), dtype=np.int64)
 
 for idx, dist in enumerate(dist_files):

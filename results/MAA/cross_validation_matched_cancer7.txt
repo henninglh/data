@@ -1,0 +1,8 @@
+gene_names
+NCOA1
+HRAS
+TNFAIP3
+PGAM2
+TOP1
+BRD4
+PTPRK

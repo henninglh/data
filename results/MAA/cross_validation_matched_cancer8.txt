@@ -1,0 +1,8 @@
+gene_names
+BRCA1
+EGFR
+MUC1
+BIRC3
+TNFAIP3
+PGAM2
+BRAF

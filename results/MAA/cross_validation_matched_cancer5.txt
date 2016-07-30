@@ -1,0 +1,8 @@
+gene_names
+PDGFRB
+ERBB4
+CCND3
+MED12
+MUC1
+JAK1
+NCOR2
