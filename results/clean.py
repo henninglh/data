@@ -16,9 +16,9 @@ cols.remove('selected')
 for score in scorings:
     cols.remove(score.strip())
 table.fillna(value=0)
-#table = table.sort_values(by=['PRWP', '__mclCluster', 'name'], ascending=[False,
-table = table.sort_values(by=['MAA', '__mclCluster', 'name'], ascending=[False,
+table = table.sort_values(by=['PRWP', '__mclCluster', 'name'], ascending=[False,
+#table = table.sort_values(by=['MAA', '__mclCluster', 'name'], ascending=[False,
     True, True])
 table.to_csv(clean_filename, na_rep=0.0, index=False, sep='\t',
-        #columns=['__mclCluster', 'name', 'PRWP', 'score', 'PRWP_single'])  # PRWP
-        columns=['__mclCluster', 'name', 'MAA', 'score'])  # MAA
+        columns=['__mclCluster', 'name', 'PRWP', 'score', 'PRWP_single'])  # PRWP
+        #columns=['__mclCluster', 'name', 'MAA', 'score'])  # MAA
