@@ -13,7 +13,7 @@ num = sys.argv[2].strip()
 #with open('MAA/mcl-1.8_maa_links-4487_golden_cancer_clean.tsv', 'r') as clean,\
         #open('clusters.tsv', 'w') as cluster_file:
 with open(f, 'r') as clean,\
-        open(d + 'clusters_cancer' + num + '.tsv', 'w') as cluster_file:
+        open(d + 'clusters' + num + '.tsv', 'w') as cluster_file:
     clean.readline()
 
     cluster_file.write('clusters\tscore\tgenes\n')

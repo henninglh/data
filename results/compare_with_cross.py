@@ -2,15 +2,15 @@
 
 import sys
 
-number = int(sys.argv[1].strip())
+d = sys.argv[1].strip() + '/'
+number = sys.argv[2].strip()
 
 #with open('clusters.tsv', 'r') as clean,\
-with open('PRWP/clusters_full.tsv', 'r') as clean,\
-        #open('../scoring/cross_validation.txt', 'r') as cross_validation,\
-        open('PRWP/cross_validation' + number + '.txt', 'r') as cross_validation,\
-        open('cross_validation_matched' + number + '.txt', 'w') as matched,\
-        open('cross_validation_unmatched' + number + '.txt', 'w') as unmatched,\
-        open('cv_distribution' + number + '.tsv', 'w') as distribution:
+with open(d + 'clusters_cancer' + number + '.tsv', 'r') as clean,\
+        open(d + 'cross_validation_cancer' + number + '.txt', 'r') as cross_validation,\
+        open(d + 'cross_validation_matched_cancer' + number + '.txt', 'w') as matched,\
+        open(d + 'cross_validation_unmatched_cancer' + number + '.txt', 'w') as unmatched,\
+        open(d + 'cv_distribution_cancer' + number + '.tsv', 'w') as distribution:
 
     clean.readline()
     cross_validation.readline()
