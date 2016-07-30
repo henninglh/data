@@ -1,0 +1,8 @@
+gene_names
+EGFR
+CD74
+MED12
+ERBB4
+HRAS
+STAT3
+NBN

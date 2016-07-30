@@ -1,0 +1,8 @@
+gene_names
+EGFR
+NCOR2
+FLT4
+RARA
+HRAS
+STAT3
+PMS2

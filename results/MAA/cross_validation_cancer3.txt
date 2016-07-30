@@ -1,0 +1,8 @@
+gene_names
+CDKN1B
+PPARG
+BRCA1
+CXCR4
+APC
+ATM
+MAP3K1

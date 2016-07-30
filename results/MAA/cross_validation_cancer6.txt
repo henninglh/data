@@ -1,0 +1,8 @@
+gene_names
+MUC1
+PPARG
+PGAM2
+RARA
+ERBB2
+MDM4
+PDGFRB
