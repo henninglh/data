@@ -1,32 +1,43 @@
 #!/usr/bin/env python
 
 import numpy as np
+import sys
+
+d = sys.argv[1].strip() + '/'
+is_cancer = len(sys.argv) == 4
+clusters = int(sys.argv[2].strip())
+prefix = ''
+if is_cancer:
+    prefix = '_cancer'
 
 dist_files = [
-        'cv_distribution1.tsv',
-        'cv_distribution2.tsv',
-        'cv_distribution3.tsv',
-        'cv_distribution4.tsv',
-        'cv_distribution5.tsv',
-        'cv_distribution6.tsv',
-        'cv_distribution7.tsv',
-        'cv_distribution8.tsv',
-        'cv_distribution9.tsv',
-        'cv_distribution10.tsv',
+        d + 'cv_distribution' + prefix + '1.tsv',
+        d + 'cv_distribution' + prefix + '2.tsv',
+        d + 'cv_distribution' + prefix + '3.tsv',
+        d + 'cv_distribution' + prefix + '4.tsv',
+        d + 'cv_distribution' + prefix + '5.tsv',
+        d + 'cv_distribution' + prefix + '6.tsv',
+        d + 'cv_distribution' + prefix + '7.tsv',
+        d + 'cv_distribution' + prefix + '8.tsv',
+        d + 'cv_distribution' + prefix + '9.tsv',
+        d + 'cv_distribution' + prefix + '10.tsv',
         ]
-comparisons = 10
-clusters = 1340
-ranks = np.zeros((comparisons,clusters), dtype=np.int64)
+comparisons = len(dist_files)  # Default: 10
+ranks = np.zeros((comparisons,clusters), dtype=np.float64)
+rank_to_cluster = dict()
 
 for idx, dist in enumerate(dist_files):
     with open(dist.strip(), 'r') as distribution:
         for line in distribution.readlines():
-            rank, count = map(lambda x: int(x.strip()), line.split('\t'))
+            info = line.split('\t')
+            rank = int(info[0].strip())
+            count = float(info[2].strip())
             ranks[idx][rank-1] = count
+            rank_to_cluster[rank] = info[1].strip()
 
 print ranks.sum(axis=0)
 rank = 1
-with open('cv_total_dist.tsv', 'w') as full_dist:
+with open(d + 'cv_total_dist' + prefix + '.tsv', 'w') as full_dist:
     for frequency in ranks.sum(axis=0):
         full_dist.write('{}\t{}\n'.format(rank, frequency))
         rank += 1

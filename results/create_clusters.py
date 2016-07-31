@@ -6,6 +6,10 @@ import sys
 f = sys.argv[1].strip()
 d = f.split('/')[0] + '/'
 num = sys.argv[2].strip()
+is_cancer = len(sys.argv) == 4
+prefix = ''
+if is_cancer:
+    num = '_cancer' + num
 #with open('mcl-1.8_prwp_a-8_i-1000_links-43706_mean_clean.tsv', 'r') as clean,\
 #with open('PRWP/mcl-1.8_prwp_a-3_i-30_links-43706_golden_clean.tsv', 'r') as clean,\
 #with open('PRWP/mcl-1.8_prwp_a-3_i-30_links-487_golden_cancer_clean.tsv', 'r') as clean,\
@@ -27,6 +31,8 @@ with open(f, 'r') as clean,\
         node_score = float(info[3].strip())
         gene += ':{}'.format(node_score)
 
+        if cluster == 0:
+            continue
         if cluster not in clusters:
             clusters[cluster] = {'genes': set(), 'score': 0.0}
             clusters[cluster]['score'] = score

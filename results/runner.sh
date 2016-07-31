@@ -14,3 +14,9 @@
 ./exp_score_cluster.py MAA CANCER
 ./txt_score_cluster.py MAA CANCER
 ./know_score_cluster.py MAA CANCER
+
+./combine_with_cross.py PRWP
+./combine_with_cross.py PRWP d
+
+./combine_with_cross.py MAA
+./combine_with_cross.py MAA d
