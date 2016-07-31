@@ -3,16 +3,16 @@
 import numpy as np
 
 dist_files = [
-        'cv_distribution_cancer1.tsv',
-        'cv_distribution_cancer2.tsv',
-        'cv_distribution_cancer3.tsv',
-        'cv_distribution_cancer4.tsv',
-        'cv_distribution_cancer5.tsv',
-        'cv_distribution_cancer6.tsv',
-        'cv_distribution_cancer7.tsv',
-        'cv_distribution_cancer8.tsv',
-        'cv_distribution_cancer9.tsv',
-        'cv_distribution_cancer10.tsv',
+        'cv_distribution1.tsv',
+        'cv_distribution2.tsv',
+        'cv_distribution3.tsv',
+        'cv_distribution4.tsv',
+        'cv_distribution5.tsv',
+        'cv_distribution6.tsv',
+        'cv_distribution7.tsv',
+        'cv_distribution8.tsv',
+        'cv_distribution9.tsv',
+        'cv_distribution10.tsv',
         ]
 comparisons = 10
 clusters = 1340
@@ -30,5 +30,6 @@ print ranks.sum(axis=0)
 rank = 1
 with open('cv_total_dist.tsv', 'w') as full_dist:
     for frequency in ranks.sum(axis=0):
+        #if frequency != 0.0:
         full_dist.write('{}\t{}\n'.format(rank, frequency))
         rank += 1
