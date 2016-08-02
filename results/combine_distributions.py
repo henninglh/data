@@ -31,7 +31,7 @@ for idx, dist in enumerate(dist_files):
         for line in distribution.readlines():
             info = line.split('\t')
             rank = int(info[0].strip())
-            count = float(info[2].strip())
+            count = float(info[1].strip())
             ranks[idx][rank-1] = count
             rank_to_cluster[rank] = info[1].strip()
 

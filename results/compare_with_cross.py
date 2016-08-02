@@ -37,7 +37,8 @@ for i in xrange(1, 11):
             map(lambda x: identified_genes.add(x), intersect)
             hits += len(intersect)
             ranks.append(float(len(intersect)) / float(len(genes)))
-            clusters.append(info[0].strip())
+            c = info[0].strip() + '_' + info[2].strip()
+            clusters.append(c)
 
         for gene in identified_genes:
             matched.write('{}\n'.format(gene))
@@ -47,7 +48,7 @@ for i in xrange(1, 11):
 
         rank = 1
         for idx, candidates in enumerate(ranks):
-            distribution.write('{}\t{}\t{}\n'.format(rank, clusters[idx], candidates))
+            distribution.write('{}\t{}\t{}\n'.format(rank, candidates, clusters[idx]))
             #distribution.write('{}\t{}\n'.format(rank, candidates))
             rank += 1
 
