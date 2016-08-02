@@ -34,5 +34,10 @@ with open('disease_know_scores.txt', 'r') as score_file,\
         cand_score = float(len(scores.intersection(candidates_only))) / float(len(genes))
 
         if (gene_score + cand_score) > 0.0:
-            ranks.write('{}\t{}\t{}\n'.format(rank, gene_score, cand_score))
+            if gene_score == 0.0 and cand_score != 0.0:
+                ranks.write('{}\t\t{}\n'.format(rank, cand_score))
+            elif cand_score == 0.0 and gene_score != 0.0:
+                ranks.write('{}\t\t{}\n'.format(rank, gene_score))
+            else:
+                ranks.write('{}\t{}\t{}\n'.format(rank, gene_score, cand_score))
         rank += 1
