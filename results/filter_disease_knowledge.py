@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-with open('human_disease_knowledge_filtered.tsv', 'r') as f,\
+with open('human_disease_knowledge_full.tsv', 'r') as f,\
         open('disease_know_scores.txt', 'w') as clean:
     f.readline()
     clean.write('genes\n')

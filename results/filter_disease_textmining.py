@@ -2,7 +2,7 @@
 
 import operator
 
-with open('human_disease_textmining_filtered.tsv', 'r') as f,\
+with open('human_disease_textmining_full.tsv', 'r') as f,\
         open('disease_text_scores.tsv', 'w') as clean:
 
     f.readline()
@@ -14,7 +14,6 @@ with open('human_disease_textmining_filtered.tsv', 'r') as f,\
         genes[gene] = float(zscore)
 
     sort_g = sorted(genes.items(), key=operator.itemgetter(1), reverse=True)
-    print sort_g[0]
 
     for gene in sort_g:
         clean.write('{}\t{}\n'.format(gene[0], gene[1]))

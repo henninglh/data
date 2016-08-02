@@ -1,5 +1,4 @@
 genes
-HNF1B
 CD82
 CDH1
 MSR1

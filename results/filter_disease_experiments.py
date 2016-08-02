@@ -6,7 +6,7 @@ import operator
 Assumes prostate cancer filtered information (no "samples")
 """
 
-with open('human_disease_experiments_filtered.tsv', 'r') as f,\
+with open('human_disease_experiments_full.tsv', 'r') as f,\
         open('disease_exp_scores.tsv', 'w') as clean:
 
     f.readline()
