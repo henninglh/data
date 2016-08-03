@@ -47,7 +47,7 @@ with open('disease_exp_scores.tsv', 'r') as score_file,\
             if gene_score == 0.0 and cand_score != 0.0:
                 ranks.write('{}\t\t{}\n'.format(rank, cand_score))
             elif cand_score == 0.0 and gene_score != 0.0:
-                ranks.write('{}\t\t{}\n'.format(rank, gene_score))
+                ranks.write('{}\t{}\t\n'.format(rank, gene_score))
             else:
                 ranks.write('{}\t{}\t{}\n'.format(rank, gene_score, cand_score))
         rank += 1
