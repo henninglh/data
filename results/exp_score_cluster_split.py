@@ -11,8 +11,8 @@ if is_cancer:
     cancer_prefix = '_cancer'
 
 with open('disease_exp_scores.tsv', 'r') as score_file,\
-        open(directory + 'clusters_full' + cancer_prefix + '.tsv', 'r') as cluster_file,\
-        open(directory + 'exp_ranks_split' + cancer_prefix + '.tsv', 'w') as ranks:
+        open(directory + 'clusters_cosmic' + cancer_prefix + '.tsv', 'r') as cluster_file,\
+        open(directory + 'exp_ranks_split_cosmic' + cancer_prefix + '.tsv', 'w') as ranks:
 
     score_file.readline()
     cluster_file.readline()
