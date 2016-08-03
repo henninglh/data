@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 
 with open('CosmicHGNC.tsv', 'r') as cosmic,\
-        open('cosmic_scores.txt', 'w') as scores:
+        open('cosmic_scores.tsv', 'w') as scores:
 
     cosmic.readline()
     cosmic_genes = set([i.split('\t')[1].strip() for i in cosmic.readlines()])
 
     for gene in cosmic_genes:
-        scores.write('{}\n'.format(gene))
+        if '_' in gene:
+            gene = gene.split('_')[0]
+        scores.write('{}\t1\n'.format(gene.strip()))
