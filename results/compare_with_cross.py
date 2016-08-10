@@ -51,7 +51,6 @@ for i in xrange(1, 11):
             distribution.write('{}\t{}\t{}\n'.format(rank, candidates, clusters[idx]))
             rank += 1
 
-        # Percentage of hits
         print '======================='
         print 'total possible matches:', len(cross_val_genes)
         print 'matches:', hits
