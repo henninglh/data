@@ -22,12 +22,19 @@ with open(d + 'clusters_full.tsv', 'r') as clean,\
         candidates = set([a.split(':')[0] for a in 
                 filter(lambda x: float(x.split(':')[1].strip()) == 0.0, 
                 [i for i in info[2].split(',')])])
-        biomarkers = genes - candidates
-        ident_non = ','.join(genes - test_genes)
-        ident_marker = ','.join(test_genes.intersection(biomarkers))
-        ident_candid = ','.join(test_genes.intersection(candidates))
+        biomarkers = test_genes.intersection(genes - candidates)
+        candids = test_genes.intersection(candidates)
+        ident_non = ','.join(genes - candids - biomarkers)
+        ident_marker = ','.join(biomarkers)
+        ident_candid = ','.join(candids)
 
         if (len(ident_marker) + len(ident_candid)) > 0:
+            if len(ident_non) == 0:
+                ident_non = '-'
+            if len(ident_marker) == 0:
+                ident_marker = '-'
+            if len(ident_candid) == 0:
+                ident_candid = '-'
             core.write('{}\t{}\t{}\t{}\n'.format(rank, ident_marker, ident_candid,
                 ident_non))
         rank += 1
