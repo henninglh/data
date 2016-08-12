@@ -6,7 +6,7 @@ test = sys.argv[2]
 
 with open(d + 'clusters_full.tsv', 'r') as clean,\
         open(test, 'r') as test_set,\
-        open(d + 'cosmic_final.tsv', 'w') as core:
+        open(d + 'lethal_final.tsv', 'w') as core:
 
     clean.readline()
     test_set.readline()
